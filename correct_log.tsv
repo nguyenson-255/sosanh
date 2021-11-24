@@ -6,7 +6,7 @@ a5936d1	ab8e60d	Vidar Tonaas Fauske	vidartf@gmail.com	Wed, 14 Apr 2021 18:28:47 
 ab8e60d	f1e18ff 23e0cc9	Vidar Tonaas Fauske	vidartf@gmail.com	Wed, 14 Apr 2021 18:01:22 +0100	Merge pull request #581 from vidartf/clenaup	
 23e0cc9	f1e18ff	Vidar Tonaas Fauske	vidartf@gmail.com	Wed, 14 Apr 2021 17:35:44 +0100	cleanup labext dist	nbdime/__init__.py,packages/labextension/package.json,setup.py
 f1e18ff	52f7990 6c1ce97	Vidar Tonaas Fauske	vidartf@gmail.com	Wed, 14 Apr 2021 17:27:12 +0100	Merge pull request #572 from fcollonval/ft/federated-package	
-6c1ce97	8391e4c	Frederic COLLONVAL	fcollonval@gmail.com	Wed, 14 Apr 2021 9:16:42 +0200	Package lab assets in python pkg	.gitignore,MANIFEST.in,nbdime/__init__.py,packages/labextension/package.json,setup.py
+6c1ce97	8391e4c	Frederic COLLONVAL	fcollonval@gmail.com	Wed, 14 Apr 2021 09:16:42 +0200	Package lab assets in python pkg	.gitignore,MANIFEST.in,nbdime/__init__.py,packages/labextension/package.json,setup.py
 52f7990	8ce708c 25252f6	Vidar Tonaas Fauske	vidartf@gmail.com	Tue, 13 Apr 2021 19:03:43 +0100	Merge pull request #580 from fcollonval/fix/follow-up-576	
 8391e4c	f03d0fa	Frédéric Collonval	fcollonval@gmail.com	Mon, 12 Apr 2021 15:56:32 +0200	Fix job killed by max log length	.travis.yml
 f03d0fa	289dbdf	Frédéric Collonval	fcollonval@gmail.com	Mon, 12 Apr 2021 15:50:02 +0200	Fix typo	setup.py
@@ -14,10 +14,10 @@ f03d0fa	289dbdf	Frédéric Collonval	fcollonval@gmail.com	Mon, 12 Apr 2021 15:50
 99ace3a	328d0fe	Frédéric Collonval	fcollonval@gmail.com	Mon, 12 Apr 2021 15:42:06 +0200	Need jupyterlab to build the sdist	appveyor.yml
 328d0fe	2577450	Frédéric Collonval	fcollonval@gmail.com	Mon, 12 Apr 2021 15:36:23 +0200	jupyter-packaging is not used	pyproject.toml
 2577450	7458c88	Frédéric Collonval	fcollonval@gmail.com	Mon, 12 Apr 2021 15:35:00 +0200	Create pyproject.toml	pyproject.toml
-25252f6	7ce9586	Frederic COLLONVAL	fcollonval@gmail.com	Mon, 12 Apr 2021 9:23:40 +0200	Remove unnecessary dev dependency	packages/nbdime/package.json
-7ce9586	8ce708c	Frederic COLLONVAL	fcollonval@gmail.com	Mon, 12 Apr 2021 9:23:22 +0200	Add comments on mocked objects	packages/nbdime/test/src/common/mergeview.spec.ts,packages/nbdime/test/src/merge/widget.spec.ts
+25252f6	7ce9586	Frederic COLLONVAL	fcollonval@gmail.com	Mon, 12 Apr 2021 09:23:40 +0200	Remove unnecessary dev dependency	packages/nbdime/package.json
+7ce9586	8ce708c	Frederic COLLONVAL	fcollonval@gmail.com	Mon, 12 Apr 2021 09:23:22 +0200	Add comments on mocked objects	packages/nbdime/test/src/common/mergeview.spec.ts,packages/nbdime/test/src/merge/widget.spec.ts
 7458c88	8ce708c	Frederic COLLONVAL	fcollonval@gmail.com	Sat, 13 Mar 2021 18:28:56 +0100	Package labextension as federated extension	packages/labextension/package.json,packages/nbdime/package.json,setup.py
-8ce708c	4291b8c dea43d6	Vidar Tonaas Fauske	vidartf@gmail.com	Mon, 12 Apr 2021 1:40:45 +0100	Merge pull request #566 from krassowski/fix-cell-id-tests	
+8ce708c	4291b8c dea43d6	Vidar Tonaas Fauske	vidartf@gmail.com	Mon, 12 Apr 2021 01:40:45 +0100	Merge pull request #566 from krassowski/fix-cell-id-tests	
 dea43d6	fad3145	Vidar Tonaas Fauske	vidartf@gmail.com	Sun, 11 Apr 2021 21:28:48 +0100	ignore some more cell ids	nbdime/tests/test_merge_notebooks.py
 fad3145	2482eee	Vidar Tonaas Fauske	vidartf@gmail.com	Sun, 11 Apr 2021 21:27:56 +0100	follow up broken mathjax test	nbdime/tests/test_server_extension.py
 2482eee	156ae47	Vidar Tonaas Fauske	vidartf@gmail.com	Sun, 11 Apr 2021 21:27:40 +0100	every cell should have a ID, right?	nbdime/merging/strategies.py,nbdime/tests/test_merge_notebooks_inline.py,nbdime/tests/utils.py,nbdime/utils.py
@@ -26,7 +26,7 @@ fad3145	2482eee	Vidar Tonaas Fauske	vidartf@gmail.com	Sun, 11 Apr 2021 21:27:56 
 4291b8c	ab9f1bc 86c28f7	Vidar Tonaas Fauske	vidartf@gmail.com	Sun, 11 Apr 2021 21:02:58 +0100	Merge pull request #579 from vidartf/mathjax-server-ext	
 86c28f7	ab9f1bc	Vidar Tonaas Fauske	vidartf@gmail.com	Sun, 11 Apr 2021 16:48:10 +0100	Rely on jupyter-server-mathjax	nbdime/tests/test_web.py,nbdime/webapp/nbdimeserver.py,setup.py
 ab9f1bc	c823623 295e834	Vidar Tonaas Fauske	vidartf@gmail.com	Sun, 11 Apr 2021 14:05:53 +0100	Merge pull request #576 from fcollonval/ft/jest	
-295e834	acf43ea	Frederic COLLONVAL	fcollonval@gmail.com	Mon, 22 Mar 2021 7:46:47 +0100	Update tools in ci	.travis.yml,appveyor.yml
+295e834	acf43ea	Frederic COLLONVAL	fcollonval@gmail.com	Mon, 22 Mar 2021 07:46:47 +0100	Update tools in ci	.travis.yml,appveyor.yml
 acf43ea	c823623	Frederic COLLONVAL	fcollonval@gmail.com	Sun, 21 Mar 2021 14:20:23 +0100	Convert test from karma to jest	packages/nbdime/babel.config.js,packages/nbdime/jest.config.js,packages/nbdime/package.json,packages/nbdime/test/jest-file-mock.js,packages/nbdime/test/jest-setup-files.js,packages/nbdime/test/karma-nocov.conf.js,packages/nbdime/test/karma.conf.js,packages/nbdime/test/src/common/collapsiblepanel.spec.ts,packages/nbdime/test/src/common/dragpanel.spec.ts,packages/nbdime/test/src/common/flexpanel.spec.ts,packages/nbdime/test/src/common/mergeview.spec.ts,packages/nbdime/test/src/common/util.spec.ts,packages/nbdime/test/src/diff/chunking.spec.ts,packages/nbdime/test/src/diff/model.spec.ts,packages/nbdime/test/src/diff/util.spec.ts,packages/nbdime/test/src/diff/widget/metadata.spec.ts,packages/nbdime/test/src/diff/widget/output.spec.ts,packages/nbdime/test/src/merge/decisions.spec.ts,packages/nbdime/test/src/merge/model.spec.ts,packages/nbdime/test/src/merge/widget.spec.ts,packages/nbdime/test/src/patch/patching.spec.ts,packages/nbdime/test/src/tsconfig.json,packages/nbdime/tsconfig.json
 2d1edb8	fe2911a	krassowski	krassowski.michal@gmail.com	Fri, 19 Mar 2021 14:32:39 +0000	Strip cell IDs in remaining tests, and in cell marker	nbdime/merging/generic.py,nbdime/merging/strategies.py,nbdime/tests/test_merge_notebooks_inline.py,nbdime/tests/utils.py,nbdime/utils.py
 fe2911a	c38cfc5 25101fe	Michał Krassowski	5832902+krassowski@users.noreply.github.com	Sun, 7 Mar 2021 11:10:34 +0000	Merge pull request #1 from vidartf/id-tests	
@@ -48,9 +48,9 @@ acc90b0	5ec9389	Alex Bozarth	ajbozart@us.ibm.com	Wed, 6 Jan 2021 16:16:00 -0800	
 2fcb8e1	3fe8966	Alex Bozarth	ajbozart@us.ibm.com	Wed, 6 Jan 2021 14:53:10 -0800	try another CI fix	.travis.yml
 3fe8966	ec300b3	Alex Bozarth	ajbozart@us.ibm.com	Wed, 6 Jan 2021 14:29:14 -0800	add nbclassic dep	setup.py
 ec300b3	6b7a6f7	Alex Bozarth	ajbozart@us.ibm.com	Wed, 6 Jan 2021 14:09:09 -0800	fixed misleading doc	docs/source/testing.rst
-6b7a6f7	d388a8e	Alex Bozarth	ajbozart@us.ibm.com	Wed, 6 Jan 2021 9:21:57 -0800	update tests	.gitignore,conftest.py,nbdime/tests/test_classic_server_extension.py,nbdime/tests/test_jupyter_server_extension.py,nbdime/webapp/nb_server_extension.py,setup.py
-d388a8e	1c247f4	Alex Bozarth	ajbozart@us.ibm.com	Wed, 6 Jan 2021 9:17:57 -0800	update to 3.0.0	package.json,packages/labextension/package.json,packages/nbdime/package.json,packages/webapp/package.json
-1c247f4	d3dde51	Alex Bozarth	ajbozart@us.ibm.com	Wed, 6 Jan 2021 9:14:40 -0800	update dev docs	docs/source/installing.rst
+6b7a6f7	d388a8e	Alex Bozarth	ajbozart@us.ibm.com	Wed, 6 Jan 2021 09:21:57 -0800	update tests	.gitignore,conftest.py,nbdime/tests/test_classic_server_extension.py,nbdime/tests/test_jupyter_server_extension.py,nbdime/webapp/nb_server_extension.py,setup.py
+d388a8e	1c247f4	Alex Bozarth	ajbozart@us.ibm.com	Wed, 6 Jan 2021 09:17:57 -0800	update to 3.0.0	package.json,packages/labextension/package.json,packages/nbdime/package.json,packages/webapp/package.json
+1c247f4	d3dde51	Alex Bozarth	ajbozart@us.ibm.com	Wed, 6 Jan 2021 09:14:40 -0800	update dev docs	docs/source/installing.rst
 d3dde51	1c701c1	Alex Bozarth	ajbozart@us.ibm.com	Mon, 14 Dec 2020 14:37:50 -0800	reenable nbserver extension	jupyter-config/jupyter_notebook_config.d/nbdime.json,nbdime/__init__.py
 1c701c1	622e68e	Alex Bozarth	ajbozart@us.ibm.com	Tue, 8 Dec 2020 18:15:11 -0800	update to jupyter_server and update lumino version	jupyter-config/jupyter_notebook_config.d/nbdime.json,jupyter-config/jupyter_server_config.d/nbdime.json,nbdime/__init__.py,nbdime/_version.py,nbdime/webapp/nb_server_extension.py,nbdime/webapp/nbdimeserver.py,packages/labextension/package.json,packages/nbdime/package.json,packages/webapp/package.json,setup.py
 622e68e	f0237a9	Alex Bozarth	ajbozart@us.ibm.com	Thu, 3 Dec 2020 15:02:29 -0800	update to rc11	package.json,packages/labextension/package.json,packages/nbdime/package.json,packages/webapp/package.json
@@ -69,7 +69,7 @@ b707946	141b2dc 598c072	Vidar Tonaas Fauske	vidartf@gmail.com	Tue, 29 Sep 2020 1
 8c1b7ab	e528785	Vidar Tonaas Fauske	vidartf@gmail.com	Tue, 29 Sep 2020 12:42:57 +0200	Update test_cli_apps.py	nbdime/tests/test_cli_apps.py
 141b2dc	0f0a90a 4d2e319	Vidar Tonaas Fauske	vidartf@gmail.com	Tue, 29 Sep 2020 12:19:15 +0200	Merge pull request #544 from vidartf/fix-merge-empty-base	
 598c072	c1d8e30	Vidar Tonaas Fauske	vidartf@gmail.com	Tue, 29 Sep 2020 11:59:56 +0200	Limit the size of stream outputs to diff	nbdime/diffing/notebooks.py
-c1d8e30	0f0a90a	Chris Sewell	chrisj_sewell@hotmail.com	Thu, 8 Aug 2019 4:12:19 +0100	fix `_compare_mimedata` for mimes that contain strings but are not `text/` types	nbdime/diffing/notebooks.py
+c1d8e30	0f0a90a	Chris Sewell	chrisj_sewell@hotmail.com	Thu, 8 Aug 2019 04:12:19 +0100	fix `_compare_mimedata` for mimes that contain strings but are not `text/` types	nbdime/diffing/notebooks.py
 e528785	0f0a90a	Vidar Tonaas Fauske	vidartf@gmail.com	Tue, 29 Sep 2020 11:55:45 +0200	Use sendBeacon to send close requests	nbdime/webapp/nbdimeserver.py,packages/webapp/src/app/common.ts
 4d2e319	0f0a90a	Vidar Tonaas Fauske	vidartf@gmail.com	Tue, 29 Sep 2020 11:53:55 +0200	Fix error with empty base in merge	nbdime/nbmergeapp.py,nbdime/utils.py,nbdime/webapp/nbdimeserver.py
 0f0a90a	f259cae	Vidar Tonaas Fauske	vidartf@gmail.com	Mon, 28 Sep 2020 16:59:50 +0200	Stop gap measure to avoid always ignoring ignore config (#542)	nbdime/args.py,nbdime/nbdiffapp.py,nbdime/tests/conftest.py,nbdime/tests/test_args.py,nbdime/tests/test_cli_apps.py,nbdime/tests/test_git_diffdriver.py,nbdime/tests/test_hg_differ.py,nbdime/tests/test_merge_notebooks.py
@@ -123,7 +123,7 @@ cdadb44	ec065a7 0810fa3	Vidar Tonaas Fauske	vidartf@gmail.com	Wed, 7 Aug 2019 11
 2c814b1	07abee8	Itamar Turner-Trauring	itamar@itamarst.org	Tue, 6 Aug 2019 16:12:52 -0400	Nicer way to express this.	packages/nbdime/src/merge/model/notebook.ts
 ec065a7	877b842	Vidar Tonaas Fauske	vidartf@gmail.com	Tue, 6 Aug 2019 12:36:54 +0100	Back to dev	nbdime/_version.py
 877b842	f96ac65	Vidar Tonaas Fauske	vidartf@gmail.com	Tue, 6 Aug 2019 11:10:21 +0100	1.1.0	docs/source/changelog.md,nbdime/_version.py
-f96ac65	ed26ad9	Jaipreet Singh	43826141+jaipreet-s@users.noreply.github.com	Fri, 2 Aug 2019 5:41:59 -0700	Add a `/gitdiff` API  (#482)	nbdime/gitfiles.py,nbdime/tests/test_server_extension.py,nbdime/webapp/nb_server_extension.py
+f96ac65	ed26ad9	Jaipreet Singh	43826141+jaipreet-s@users.noreply.github.com	Fri, 2 Aug 2019 05:41:59 -0700	Add a `/gitdiff` API  (#482)	nbdime/gitfiles.py,nbdime/tests/test_server_extension.py,nbdime/webapp/nb_server_extension.py
 07abee8	ed26ad9	Itamar Turner-Trauring	itamar@itamarst.org	Mon, 29 Jul 2019 15:07:25 -0400	Handle addrange/removerange conflicts by splitting.	packages/nbdime/src/merge/model/notebook.ts
 ed26ad9	4e1dea3	Vidar Tonaas Fauske	vidartf@gmail.com	Thu, 25 Jul 2019 19:17:13 +0100	back to dev	nbdime/_version.py
 4e1dea3	f9da6b7	Vidar Tonaas Fauske	vidartf@gmail.com	Thu, 25 Jul 2019 19:10:43 +0100	1.0.7	docs/source/changelog.md,nbdime/_version.py
@@ -156,7 +156,7 @@ b75bfa7	550a0f1	Vidar Tonaas Fauske	vidartf@gmail.com	Thu, 16 May 2019 14:13:02 
 ba18b56	c2635db 0509d39	Vidar Tonaas Fauske	vidartf@gmail.com	Mon, 29 Apr 2019 13:18:14 +0200	Merge pull request #466 from lebedov/nbshow-colorize	
 0509d39	fb44143	Vidar Tonaas Fauske	vidartf@gmail.com	Wed, 20 Mar 2019 16:18:21 +0100	Make nbshow highlighting robust	nbdime/prettyprint.py
 fb44143	c2635db	Lev E. Givon	lev@columbia.edu	Sun, 10 Mar 2019 21:54:02 -0400	Colorize source with pygments before displaying.	nbdime/prettyprint.py,setup.py
-c2635db	8f97f04	Vidar Tonaas Fauske	vidartf@gmail.com	Mon, 11 Mar 2019 1:29:51 +0100	Update changelog.md	docs/source/changelog.md
+c2635db	8f97f04	Vidar Tonaas Fauske	vidartf@gmail.com	Mon, 11 Mar 2019 01:29:51 +0100	Update changelog.md	docs/source/changelog.md
 8f97f04	c53f9d2	Vidar Tonaas Fauske	vidartf@gmail.com	Fri, 8 Mar 2019 22:03:04 +0100	back to dev	nbdime/_version.py
 c53f9d2	398e4a2	Vidar Tonaas Fauske	vidartf@gmail.com	Fri, 8 Mar 2019 14:47:00 +0100	1.0.5	nbdime/_version.py
 398e4a2	a3363e8	Vidar Tonaas Fauske	vidartf@gmail.com	Fri, 8 Mar 2019 14:11:19 +0100	Increment webapp internal version	packages/webapp/package.json
@@ -175,7 +175,7 @@ b8c7829	91ac9bf 384acd9	Vidar Tonaas Fauske	vidartf@gmail.com	Mon, 4 Mar 2019 10
 95fe0aa	91ac9bf	Vidar Tonaas Fauske	vidartf@gmail.com	Fri, 1 Mar 2019 17:51:53 +0100	Scope CSS for nbdime JS library	packages/nbdime/src/styles/common.css,packages/webapp/src/app/common.css
 91ac9bf	31b716e 8e65719	Vidar Tonaas Fauske	vidartf@gmail.com	Fri, 1 Mar 2019 15:28:46 +0100	Merge pull request #460 from jupyter/fa-https	
 8e65719	31b716e	Vidar Tonaas Fauske	vidartf@gmail.com	Fri, 1 Mar 2019 12:50:52 +0100	Always use https for font-awesome	nbdime/webapp/templates/nbdimepage.html
-31b716e	07714c0 5ab35e7	Vidar Tonaas Fauske	vidartf@gmail.com	Fri, 1 Mar 2019 9:09:47 +0100	Merge pull request #457 from minrk/remote-access	
+31b716e	07714c0 5ab35e7	Vidar Tonaas Fauske	vidartf@gmail.com	Fri, 1 Mar 2019 09:09:47 +0100	Merge pull request #457 from minrk/remote-access	
 5ab35e7	07714c0	Min RK	benjaminrk@gmail.com	Thu, 28 Feb 2019 13:07:58 +0100	set allow_remote_access when listening on non-localhost ip	nbdime/webapp/nbdimeserver.py
 07714c0	435ce3b f79fd54	Min RK	benjaminrk@gmail.com	Thu, 28 Feb 2019 13:00:30 +0100	Merge pull request #450 from vidartf/fix-unhide-update	
 435ce3b	d71758d 027145e	Vidar Tonaas Fauske	vidartf@gmail.com	Mon, 18 Feb 2019 10:59:47 +0100	Merge pull request #454 from minrk/path-arg-type	
@@ -287,7 +287,7 @@ ef9d708	1bb9458 e67a71d	Vidar Tonaas Fauske	vidartf@gmail.com	Mon, 11 Jun 2018 1
 e67a71d	1bb9458	Vidar Tonaas Fauske	vidartf@gmail.com	Mon, 11 Jun 2018 13:07:12 +0200	Ensure rendered output min height	packages/nbdime/src/styles/diff.css
 e18d8b6	d41ce8b	Vidar Tonaas Fauske	vidartf@gmail.com	Mon, 11 Jun 2018 11:12:40 +0200	Add front end extension config section	docs/source/config.rst,nbdime/config.py,nbdime/webapp/nb_server_extension.py
 d41ce8b	1bb9458	Vidar Tonaas Fauske	vidartf@gmail.com	Mon, 11 Jun 2018 11:11:25 +0200	Fix config examples valid JSON	docs/source/config.rst
-1bb9458	25878a5 151415d	Vidar Tonaas Fauske	vidartf@gmail.com	Mon, 11 Jun 2018 9:55:30 +0200	Merge pull request #382 from toddrme2178/patch-1	
+1bb9458	25878a5 151415d	Vidar Tonaas Fauske	vidartf@gmail.com	Mon, 11 Jun 2018 09:55:30 +0200	Merge pull request #382 from toddrme2178/patch-1	
 151415d	25878a5	Todd	toddrme2178@gmail.com	Fri, 8 Jun 2018 16:57:56 -0400	Include LICENSE file in wheels	setup.cfg
 25878a5	0234912 35309cd	Vidar Tonaas Fauske	vidartf@gmail.com	Fri, 8 Jun 2018 15:51:31 +0200	Merge pull request #381 from vidartf/fix-python-spec	
 0234912	e510209 8c614c0	Vidar Tonaas Fauske	vidartf@gmail.com	Fri, 8 Jun 2018 15:51:23 +0200	Merge pull request #380 from vidartf/inline-source	
@@ -338,7 +338,7 @@ fadd52e	871428f	Vidar Tonaas Fauske	vidartf@gmail.com	Mon, 7 May 2018 11:04:30 +
 871428f	654948b	Vidar Tonaas Fauske	vidartf@gmail.com	Fri, 4 May 2018 16:46:28 +0200	Fix styling of merge chunks	packages/nbdime/src/merge/widget/dragdrop.ts,packages/nbdime/src/styles/merge.css
 654948b	6e0e099	Vidar Tonaas Fauske	vidartf@gmail.com	Fri, 4 May 2018 16:46:08 +0200	Fix handling of cell chunks for mergetool	packages/nbdime/src/merge/model/notebook.ts
 6e0e099	f330467	Vidar Tonaas Fauske	vidartf@gmail.com	Mon, 7 May 2018 11:05:01 +0200	Add some tests	packages/nbdime/test/src/merge/model.spec.ts
-bd9873c	f330467 fdaf9c3	Vidar Tonaas Fauske	vidartf@gmail.com	Mon, 7 May 2018 9:46:47 +0200	Merge pull request #372 from minrk/utf-8	
+bd9873c	f330467 fdaf9c3	Vidar Tonaas Fauske	vidartf@gmail.com	Mon, 7 May 2018 09:46:47 +0200	Merge pull request #372 from minrk/utf-8	
 fdaf9c3	f330467	Min RK	benjaminrk@gmail.com	Fri, 4 May 2018 17:45:48 +0200	add missing encoding=utf-8 when opening notebooks	nbdime/gitfiles.py
 f330467	789e5b4 ba00a8d	Vidar Tonaas Fauske	vidartf@gmail.com	Fri, 4 May 2018 16:12:33 +0200	Merge pull request #370 from vidartf/cleanup	
 ba00a8d	d542d22	Vidar Tonaas Fauske	vidartf@gmail.com	Fri, 4 May 2018 11:21:22 +0200	Fix header styling for labext	packages/labextension/style/index.css
@@ -387,7 +387,7 @@ e4b9dc6	66cc086 04af6c9	Vidar Tonaas Fauske	vidartf@gmail.com	Tue, 3 Apr 2018 16
 c7b872a	86daf68	Vidar Tonaas Fauske	vidartf@gmail.com	Fri, 23 Mar 2018 14:45:54 +0100	Finish initial logic and styling	packages/nbdime/src/diff/widget/cell.ts,packages/nbdime/src/diff/widget/output.ts,packages/nbdime/src/styles/diff.css
 86daf68	c263474	Vidar Tonaas Fauske	vidartf@gmail.com	Fri, 23 Mar 2018 13:10:45 +0100	Cleanup compile errors	packages/nbdime/src/diff/widget/output.ts,packages/nbdime/src/diff/widget/renderable.ts
 c263474	dd8db05	Vidar Tonaas Fauske	vidartf@gmail.com	Tue, 28 Feb 2017 10:31:26 +0100	Web: Output hover menu hidden for base64 data	packages/nbdime/src/diff/model/renderable.ts,packages/nbdime/src/diff/widget/output.ts,packages/nbdime/src/styles/diff.css
-dd8db05	dd3d6e0	Vidar Tonaas Fauske	vidartf@gmail.com	Thu, 12 Jan 2017 18:21:32 +0100	"Add ""Trust outputs"" button to web diff view"	nbdime/webapp/src/app/diff.ts,nbdime/webapp/templates/diff.html,nbdime/webapp/templates/difftool.html
+dd8db05	dd3d6e0	Vidar Tonaas Fauske	vidartf@gmail.com	Thu, 12 Jan 2017 18:21:32 +0100	Add "Trust outputs" button to web diff view	nbdime/webapp/src/app/diff.ts,nbdime/webapp/templates/diff.html,nbdime/webapp/templates/difftool.html
 dd3d6e0	27c565d	Vidar Tonaas Fauske	vidartf@gmail.com	Tue, 28 Nov 2017 10:38:04 +0100	WIP changes	packages/nbdime/src/common/util.ts,packages/nbdime/src/diff/widget/cell.ts,packages/nbdime/src/diff/widget/common.ts,packages/nbdime/src/diff/widget/output.ts,packages/nbdime/src/diff/widget/renderable.ts,packages/nbdime/src/styles/diff.css
 27c565d	ce813eb	Vidar Tonaas Fauske	vidartf@gmail.com	Mon, 27 Nov 2017 17:21:00 +0100	Tests for isTrustSignificant	packages/nbdime/test/src/diff/widget/output.spec.ts
 ce813eb	094ce88	Vidar Tonaas Fauske	vidartf@gmail.com	Mon, 27 Nov 2017 17:39:20 +0100	Partial: canRenderUntrusted -> isTrustSignificant	packages/nbdime/src/diff/widget/output.ts
@@ -530,7 +530,7 @@ ea7c22a	345c0e2	Vidar Tonaas Fauske	vidartf@gmail.com	Thu, 2 Nov 2017 11:23:32 +
 57b4a68	0e140e6	Vidar Tonaas Fauske	vidartf@gmail.com	Thu, 2 Nov 2017 10:51:28 +0100	Git diff api handles deleted/added files	nbdime/webapp/nb_server_extension.py
 0e140e6	78e91bd	Vidar Tonaas Fauske	vidartf@gmail.com	Thu, 2 Nov 2017 10:50:10 +0100	Extract Popen with finalizer as test fixture (DRY)	nbdime/tests/conftest.py,nbdime/tests/test_cli_apps.py,nbdime/tests/utils.py
 78e91bd	b53fb3a	Vidar Tonaas Fauske	vidartf@gmail.com	Wed, 1 Nov 2017 14:11:25 +0100	Test webapp not imported in root nbdime	nbdime/tests/conftest.py,nbdime/tests/test_package.py
-b53fb3a	16db222	Vidar Tonaas Fauske	vidartf@gmail.com	Tue, 11 Jul 2017 0:17:13 +0200	Allow extension diffing of subdirs	nbdime/gitfiles.py,nbdime/tests/test_diff_gitrefs.py,nbdime/utils.py,nbdime/webapp/nb_server_extension.py
+b53fb3a	16db222	Vidar Tonaas Fauske	vidartf@gmail.com	Tue, 11 Jul 2017 00:17:13 +0200	Allow extension diffing of subdirs	nbdime/gitfiles.py,nbdime/tests/test_diff_gitrefs.py,nbdime/utils.py,nbdime/webapp/nb_server_extension.py
 16db222	282ab67	Vidar Tonaas Fauske	vidartf@gmail.com	Fri, 28 Jul 2017 14:26:03 +0200	Add extensions docs + reg entrypoint	docs/source/extensions.rst,docs/source/images/nbext-preview.png,docs/source/installing.rst,nbdime/__main__.py
 282ab67	123b2bb	Vidar Tonaas Fauske	vidartf@gmail.com	Wed, 5 Jul 2017 13:52:09 +0200	NB ext: Conditional registration of git diff action	nbdime/notebook_ext/index.js
 123b2bb	acb3a85	Vidar Tonaas Fauske	vidartf@gmail.com	Tue, 31 Oct 2017 18:04:27 +0100	Server extension API: Check if file in git repo	nbdime/gitfiles.py,nbdime/webapp/nb_server_extension.py
@@ -624,7 +624,7 @@ fd50f80	0147d30	Piotr Chromiec	piotr.chromiec@rtbhouse.com	Mon, 26 Jun 2017 13:3
 017acfa	a7496a2	Vidar Tonaas Fauske	vidartf@gmail.com	Tue, 23 May 2017 13:14:05 +0200	Document ignoreables diff options	docs/source/cli.rst
 a7496a2	41fd2d3 e03f7bd	Vidar Tonaas Fauske	vidartf@gmail.com	Mon, 22 May 2017 13:00:04 +0200	Merge pull request #290 from baldwint/ignore-flag-pr	
 e03f7bd	fc0d208	Vidar Tonaas Fauske	vidartf@gmail.com	Mon, 22 May 2017 11:38:43 +0200	Reuse existing code	nbdime/gitdiffdriver.py
-fc0d208	41fd2d3	Thomas Baldwin	tkb@sent.com	Mon, 22 May 2017 0:57:12 -0700	Fix mishandled ignore flags	nbdime/gitdiffdriver.py,nbdime/tests/test_git_diffdriver.py
+fc0d208	41fd2d3	Thomas Baldwin	tkb@sent.com	Mon, 22 May 2017 00:57:12 -0700	Fix mishandled ignore flags	nbdime/gitdiffdriver.py,nbdime/tests/test_git_diffdriver.py
 41fd2d3	2c30e89	Min RK	benjaminrk@gmail.com	Fri, 5 May 2017 15:01:28 +0200	add setupbase to MANIFEST.in	MANIFEST.in
 2c30e89	905b8aa	Min RK	benjaminrk@gmail.com	Fri, 5 May 2017 14:47:58 +0200	back to dev	nbdime/_version.py
 905b8aa	b10078b	Min RK	benjaminrk@gmail.com	Fri, 5 May 2017 14:14:44 +0200	release 0.3.0	nbdime/_version.py
@@ -752,8 +752,8 @@ f0cf9a7	990fded	Vidar Tonaas Fauske	vidartf@gmail.com	Wed, 8 Feb 2017 16:52:46 +
 6b2e4d5	416c0cb	Martin Sandve Alnæs	martinal@simula.no	Thu, 19 Jan 2017 16:08:09 +0000	Remove old fixme comments.	nbdime/merging/generic.py
 416c0cb	44b5930	Martin Sandve Alnæs	martinal@simula.no	Thu, 19 Jan 2017 15:55:29 +0000	A couple of bugfixes in merge algorithm.	nbdime/diff_format.py,nbdime/merging/decisions.py,nbdime/merging/generic.py
 44b5930	d658d34	Martin Sandve Alnæs	martinal@simula.no	Thu, 19 Jan 2017 12:47:24 +0000	Minor adjustments	nbdime/diffing/generic.py
-d658d34	c76c2e4	Martin Sandve Alnæs	martinal@simula.no	Thu, 19 Jan 2017 9:13:49 +0000	Bugfix in pointer regex.	nbdime/diffing/notebooks.py
-c76c2e4	89bb72f	Martin Sandve Alnæs	martinal@simula.no	Thu, 19 Jan 2017 9:12:24 +0000	Typo in comment.	nbdime/profiling.py
+d658d34	c76c2e4	Martin Sandve Alnæs	martinal@simula.no	Thu, 19 Jan 2017 09:13:49 +0000	Bugfix in pointer regex.	nbdime/diffing/notebooks.py
+c76c2e4	89bb72f	Martin Sandve Alnæs	martinal@simula.no	Thu, 19 Jan 2017 09:12:24 +0000	Typo in comment.	nbdime/profiling.py
 89bb72f	bd4e6e8	Vidar Tonaas Fauske	vidartf@gmail.com	Thu, 12 Jan 2017 17:47:29 +0100	Some profiling tools	nbdime/profiling.py,setup.py
 bd4e6e8	b03aad8	Vidar Tonaas Fauske	vidartf@gmail.com	Thu, 12 Jan 2017 17:47:01 +0100	Cleanup	nbdime/diffing/snakes.py
 b03aad8	990fded	Vidar Tonaas Fauske	vidartf@gmail.com	Thu, 12 Jan 2017 17:45:23 +0100	Optimize diff: Don't deepcopy data	nbdime/diffing/notebooks.py
@@ -837,7 +837,7 @@ d56077d	4659b81	vidartf	vidartf@gmail.com	Wed, 23 Nov 2016 22:43:26 +0100	Remove
 c6b72b7	c7791cc	Vidar Tonaas Fauske	vidartf@gmail.com	Thu, 8 Dec 2016 16:18:33 +0100	Rename webapp test notebook to have  json ext	nbdime-web/test/files/base.ipynb.json
 c7791cc	0208162	Vidar Tonaas Fauske	vidartf@gmail.com	Wed, 16 Nov 2016 14:50:17 +0100	Update jupyterlab dependency	nbdime-web/package.json,nbdime-web/scripts/copy-files.js,nbdime-web/src/diff/model/cell.ts,nbdime-web/src/diff/model/notebook.ts,nbdime-web/src/diff/model/output.ts,nbdime-web/src/diff/model/string.ts,nbdime-web/src/diff/widget/cell.ts,nbdime-web/src/diff/widget/output.ts,nbdime-web/src/merge/model/cell.ts,nbdime-web/src/merge/model/metadata.ts,nbdime-web/src/merge/model/notebook.ts,nbdime-web/src/merge/widget/cell.ts,nbdime-web/src/merge/widget/metadata.ts,nbdime-web/src/merge/widget/notebook.ts,nbdime-web/src/merge/widget/output.ts,nbdime-web/src/upstreaming/flexpanel.ts,nbdime-web/test/src/diff/model.spec.ts,nbdime-web/test/src/merge/model.spec.ts,nbdime-web/test/src/merge/widget.spec.ts,nbdime/webapp/package.json,nbdime/webapp/src/app/diff.ts,nbdime/webapp/src/app/merge.ts,nbdime/webapp/src/app/save.ts
 0208162	773dcb9	Vidar Tonaas Fauske	vidartf@gmail.com	Wed, 16 Nov 2016 15:02:23 +0100	Ensure TS 2.0.9 or higher	nbdime-web/package.json,nbdime/webapp/package.json
-773dcb9	031b756	Vidar Tonaas Fauske	vidartf@gmail.com	Tue, 15 Nov 2016 16:24:30 +0100	"Remove incorrect use of ""Object"" type"	nbdime-web/src/common/mergeview.ts,nbdime-web/src/diff/diffentries.ts,nbdime-web/src/merge/decisions.ts
+773dcb9	031b756	Vidar Tonaas Fauske	vidartf@gmail.com	Tue, 15 Nov 2016 16:24:30 +0100	Remove incorrect use of "Object" type	nbdime-web/src/common/mergeview.ts,nbdime-web/src/diff/diffentries.ts,nbdime-web/src/merge/decisions.ts
 edec016	8084596	Vidar Tonaas Fauske	vidartf@gmail.com	Mon, 19 Dec 2016 13:54:49 +0100	Web: Improve styling of unchanged cells in diff	nbdime-web/src/diff/widget/cell.ts,nbdime-web/src/styles/diff.css
 8084596	031b756	Vidar Tonaas Fauske	vidartf@gmail.com	Mon, 19 Dec 2016 13:54:20 +0100	Set font family to sans-serif	nbdime/webapp/src/app/common.css
 031b756	7fd77c6	Min RK	benjaminrk@gmail.com	Fri, 16 Dec 2016 15:53:26 +0100	back to dev	nbdime/_version.py
@@ -860,7 +860,7 @@ dd30b94	9efbef2	Martin Sandve Alnæs	martinal@simula.no	Thu, 15 Dec 2016 15:41:5
 5754cb1	4a5b533	Martin Sandve Alnæs	martinal@simula.no	Wed, 14 Dec 2016 21:30:57 +0100	Partially rework handling of unresolved decisions.	nbdime/merging/decisions.py,nbdime/merging/generic.py
 4a5b533	521fefa	Martin Sandve Alnæs	martinal@simula.no	Wed, 14 Dec 2016 19:09:26 +0100	Translate more tests.	nbdime/merging/generic.py,nbdime/tests/test_autoresolve.py,nbdime/tests/test_merge_notebooks.py,nbdime/tests/test_merge_notebooks_inline.py
 521fefa	68ad7e7	Martin Sandve Alnæs	martinal@simula.no	Wed, 14 Dec 2016 15:05:36 +0100	Translate several strategy tests from test_autoresolve and fix bugs.	nbdime/merging/decisions.py,nbdime/merging/generic.py,nbdime/merging/notebooks.py,nbdime/tests/test_autoresolve.py,nbdime/tests/test_merge_notebooks_inline.py
-68ad7e7	c0b66b2	Martin Sandve Alnæs	martinal@simula.no	Wed, 14 Dec 2016 9:50:24 +0100	Add some inline-source tests.	nbdime/merging/autoresolve.py,nbdime/merging/generic.py,nbdime/merging/notebooks.py,nbdime/tests/test_autoresolve.py,nbdime/tests/test_merge_notebooks.py,nbdime/tests/test_merge_notebooks_inline.py
+68ad7e7	c0b66b2	Martin Sandve Alnæs	martinal@simula.no	Wed, 14 Dec 2016 09:50:24 +0100	Add some inline-source tests.	nbdime/merging/autoresolve.py,nbdime/merging/generic.py,nbdime/merging/notebooks.py,nbdime/tests/test_autoresolve.py,nbdime/tests/test_merge_notebooks.py,nbdime/tests/test_merge_notebooks_inline.py
 c0b66b2	6726f68	Martin Sandve Alnæs	martinal@simula.no	Tue, 13 Dec 2016 21:31:02 +0100	Work on merge_concurrent_inserts. There are some problems here, documented in a comment for further inspection. Also cleanup of some item path details.	nbdime/merging/generic.py
 6726f68	da2fe4d	Martin Sandve Alnæs	martinal@simula.no	Tue, 13 Dec 2016 20:06:09 +0100	Delete comments.	nbdime/merging/generic.py
 da2fe4d	73f1241	Martin Sandve Alnæs	martinal@simula.no	Tue, 13 Dec 2016 19:44:55 +0100	Bugfixes.	nbdime/merging/generic.py,nbdime/prettyprint.py
@@ -890,7 +890,7 @@ c9bde54	c1a0588 3d4fd8d	Min RK	benjaminrk@gmail.com	Fri, 16 Dec 2016 13:32:19 +0
 c1a0588	874e618 cca0999	Min RK	benjaminrk@gmail.com	Fri, 16 Dec 2016 13:28:53 +0100	Merge pull request #209 from vidartf/log-url	
 cca0999	874e618	Vidar Tonaas Fauske	vidartf@gmail.com	Fri, 16 Dec 2016 10:57:39 +0100	Adjust logging when starting server	nbdime/webapp/nbdifftool.py,nbdime/webapp/nbdiffweb.py,nbdime/webapp/nbdimeserver.py,nbdime/webapp/nbmergetool.py,nbdime/webapp/nbmergeweb.py
 874e618	b691ab5 d569ff4	Martin Sandve Alnæs	martinal@simula.no	Thu, 15 Dec 2016 15:45:07 +0100	Merge pull request #205 from vidartf/fix-diff-perf	
-3d4fd8d	b691ab5	Saul Shanabrook	s.shanabrook@gmail.com	Thu, 15 Dec 2016 9:31:49 -0500	Fix JS testing instructions	docs/source/testing.rst
+3d4fd8d	b691ab5	Saul Shanabrook	s.shanabrook@gmail.com	Thu, 15 Dec 2016 09:31:49 -0500	Fix JS testing instructions	docs/source/testing.rst
 d569ff4	466cf0a	Vidar Tonaas Fauske	vidartf@gmail.com	Thu, 15 Dec 2016 15:14:02 +0100	Don't use diff in comparison	nbdime/diffing/notebooks.py
 466cf0a	beb7925	Vidar Tonaas Fauske	vidartf@gmail.com	Thu, 15 Dec 2016 14:24:36 +0100	Short circuit text comparison on equality	nbdime/diffing/notebooks.py
 beb7925	26b78b7	Vidar Tonaas Fauske	vidartf@gmail.com	Thu, 15 Dec 2016 14:24:17 +0100	Do not compare base64 approximately	nbdime/diffing/notebooks.py
@@ -902,7 +902,7 @@ f73da71	63eb2a9	Vidar Tonaas Fauske	vidartf@gmail.com	Tue, 13 Dec 2016 11:30:45 
 63eb2a9	fafea8a	Vidar Tonaas Fauske	vidartf@gmail.com	Mon, 12 Dec 2016 13:41:02 +0100	Set up appveyor test on python 3.5 (x64)	appveyor.yml
 fafea8a	7e63061 2a39bc3	Martin Sandve Alnæs	martinal@simula.no	Tue, 13 Dec 2016 10:08:53 +0100	Merge pull request #203 from vidartf/fix-ts-lock	
 2a39bc3	7e63061	Vidar Tonaas Fauske	vidartf@gmail.com	Mon, 12 Dec 2016 11:06:32 +0100	Fix ts lock to 2.0.x	nbdime/webapp/package.json
-7e63061	e7f1a48 f6c2ac5	Martin Sandve Alnæs	martinal@simula.no	Mon, 12 Dec 2016 9:46:22 +0100	Merge pull request #202 from michaelaye/patch-1	
+7e63061	e7f1a48 f6c2ac5	Martin Sandve Alnæs	martinal@simula.no	Mon, 12 Dec 2016 09:46:22 +0100	Merge pull request #202 from michaelaye/patch-1	
 f6c2ac5	e7f1a48	K.-Michael Aye	michaelaye@users.noreply.github.com	Sun, 11 Dec 2016 12:27:44 -0700	diff and merge confusion	docs/source/vcs.rst
 e7f1a48	9a4f9f8 f8e29f2	Min RK	benjaminrk@gmail.com	Fri, 9 Dec 2016 13:41:49 +0100	Merge pull request #194 from jupyter/output-diff-improvements	
 9a4f9f8	cd2f57a 143d710	Min RK	benjaminrk@gmail.com	Fri, 9 Dec 2016 13:40:03 +0100	Merge pull request #200 from vidartf/lock-ts-minor-version	
@@ -914,8 +914,8 @@ dbdea04	09568d3	Martin Sandve Alnæs	martinal@simula.no	Wed, 7 Dec 2016 12:30:48
 35c338b	fcb3cf9	Martin Sandve Alnæs	martinal@simula.no	Wed, 7 Dec 2016 11:25:48 +0100	Set input and output strategy to merge strategy if not provided, and set default output strategy to inline-outputs.	nbdime/merging/notebooks.py
 fcb3cf9	02c73aa	Martin Sandve Alnæs	martinal@simula.no	Wed, 7 Dec 2016 11:24:59 +0100	Make SequenceDiffBuilder a bit more robust by inserting new entries at sorted position instead of assuming they are sorted. Fixes issue with output conflict inlining where chunks split on every item.	nbdime/diff_format.py
 02c73aa	ed06ea6	Martin Sandve Alnæs	martinal@simula.no	Wed, 7 Dec 2016 10:10:59 +0100	Another iteration over cell and output predicates.	nbdime/diffing/notebooks.py
-ed06ea6	c265e04	Martin Sandve Alnæs	martinal@simula.no	Wed, 7 Dec 2016 8:54:10 +0100	Move functions only.	nbdime/diffing/notebooks.py
-c265e04	7b32b66	Martin Sandve Alnæs	martinal@simula.no	Wed, 7 Dec 2016 8:53:24 +0100	Rename compare_* functions more consistently.	nbdime/diffing/notebooks.py
+ed06ea6	c265e04	Martin Sandve Alnæs	martinal@simula.no	Wed, 7 Dec 2016 08:54:10 +0100	Move functions only.	nbdime/diffing/notebooks.py
+c265e04	7b32b66	Martin Sandve Alnæs	martinal@simula.no	Wed, 7 Dec 2016 08:53:24 +0100	Rename compare_* functions more consistently.	nbdime/diffing/notebooks.py
 7b32b66	f96445d	Martin Sandve Alnæs	martinal@simula.no	Tue, 6 Dec 2016 15:14:12 +0100	Use diffs in inlined outputs conflicts to mark each output separately, including notes showing which mime types are changed and which are unchanged.	nbdime/merging/autoresolve.py
 f96445d	ffb0b75	Martin Sandve Alnæs	martinal@simula.no	Tue, 6 Dec 2016 15:12:44 +0100	Add option to split chunks on every item.	nbdime/merging/chunks.py
 cd2f57a	26704cd 488467e	Martin Sandve Alnæs	martinal@simula.no	Tue, 6 Dec 2016 14:35:44 +0100	Merge pull request #193 from minrk/changelog	
@@ -924,11 +924,11 @@ cd2f57a	26704cd 488467e	Martin Sandve Alnæs	martinal@simula.no	Tue, 6 Dec 2016 
 26704cd	e27869d 9d6f54c	Min RK	benjaminrk@gmail.com	Tue, 6 Dec 2016 14:07:42 +0100	Merge pull request #191 from jupyter/mergetool-arguments	
 ffb0b75	e27869d	Martin Sandve Alnæs	martinal@simula.no	Tue, 6 Dec 2016 11:11:57 +0100	Initial work on improving output mime diffing.	nbdime/diffing/notebooks.py,nbdime/merging/autoresolve.py
 e27869d	64571fb	Martin Sandve Alnæs	martinal@simula.no	Tue, 6 Dec 2016 11:10:27 +0100	Add missing imports.	nbdime/utils.py
-9d6f54c	64571fb	Martin Sandve Alnæs	martinal@simula.no	Tue, 6 Dec 2016 9:42:57 +0100	Let nbdime mergetool take filename arguments.	nbdime/__main__.py
-64571fb	8a3a8e4 169cf2b	Martin Sandve Alnæs	martinal@simula.no	Tue, 6 Dec 2016 9:29:15 +0100	Merge pull request #190 from vidartf/quickfixes	
-169cf2b	6631f89	Vidar Tonaas Fauske	vidartf@gmail.com	Tue, 6 Dec 2016 9:01:42 +0100	Ensure proper styling of merge	nbdime-web/src/styles/merge.css
-6631f89	59b3be6	Vidar Tonaas Fauske	vidartf@gmail.com	Tue, 6 Dec 2016 0:15:00 +0100	Ensure picked outputs gets saved!	nbdime-web/src/merge/widget/cell.ts
-59b3be6	8a3a8e4	Vidar Tonaas Fauske	vidartf@gmail.com	Tue, 6 Dec 2016 0:14:43 +0100	Ensure conflict highlighting is updated on gutter	nbdime-web/src/common/mergeview.ts
+9d6f54c	64571fb	Martin Sandve Alnæs	martinal@simula.no	Tue, 6 Dec 2016 09:42:57 +0100	Let nbdime mergetool take filename arguments.	nbdime/__main__.py
+64571fb	8a3a8e4 169cf2b	Martin Sandve Alnæs	martinal@simula.no	Tue, 6 Dec 2016 09:29:15 +0100	Merge pull request #190 from vidartf/quickfixes	
+169cf2b	6631f89	Vidar Tonaas Fauske	vidartf@gmail.com	Tue, 6 Dec 2016 09:01:42 +0100	Ensure proper styling of merge	nbdime-web/src/styles/merge.css
+6631f89	59b3be6	Vidar Tonaas Fauske	vidartf@gmail.com	Tue, 6 Dec 2016 00:15:00 +0100	Ensure picked outputs gets saved!	nbdime-web/src/merge/widget/cell.ts
+59b3be6	8a3a8e4	Vidar Tonaas Fauske	vidartf@gmail.com	Tue, 6 Dec 2016 00:14:43 +0100	Ensure conflict highlighting is updated on gutter	nbdime-web/src/common/mergeview.ts
 8a3a8e4	1ca93bf	Min RK	benjaminrk@gmail.com	Mon, 5 Dec 2016 22:27:46 +0100	0.1.0b1	nbdime/_version.py
 1ca93bf	0f9e801 13de864	Min RK	benjaminrk@gmail.com	Mon, 5 Dec 2016 22:56:05 +0100	Merge pull request #189 from vidartf/fix-pick-update	
 13de864	b796d33	Vidar Tonaas Fauske	vidartf@gmail.com	Mon, 5 Dec 2016 22:43:53 +0100	Fix picking vs hidden unchanged stretches	nbdime-web/src/common/mergeview.ts,nbdime-web/src/styles/merge.css
@@ -1030,9 +1030,9 @@ fd8575d	9c0de53	Martin Sandve Alnæs	martinal@simula.no	Fri, 2 Dec 2016 10:20:07
 9c0de53	c10f808	Martin Sandve Alnæs	martinal@simula.no	Thu, 1 Dec 2016 15:45:53 +0100	Set clear as default behaviour for /cells/*/outputs for cli tool.	nbdime/merging/notebooks.py
 c10f808	ab1b8e1	Martin Sandve Alnæs	martinal@simula.no	Thu, 1 Dec 2016 15:42:53 +0100	Add output-strategy choice 'clear'.	nbdime/args.py,nbdime/merging/notebooks.py
 ab1b8e1	9b0b185	Martin Sandve Alnæs	martinal@simula.no	Thu, 1 Dec 2016 15:41:33 +0100	Indentation of comment.	nbdime/merging/decisions.py
-9b0b185	b14980c	Martin Sandve Alnæs	martinal@simula.no	Thu, 1 Dec 2016 9:50:05 +0100	Cleanup in merging/notebooks.	nbdime/merging/notebooks.py
-b14980c	3db616c	Martin Sandve Alnæs	martinal@simula.no	Thu, 1 Dec 2016 9:45:40 +0100	Add patch_singleline_string utility.	nbdime/patching.py
-3db616c	b131efe	Martin Sandve Alnæs	martinal@simula.no	Thu, 1 Dec 2016 9:44:31 +0100	Minor refactoring of source conflict rendering utils.	nbdime/prettyprint.py,nbdime/utils.py
+9b0b185	b14980c	Martin Sandve Alnæs	martinal@simula.no	Thu, 1 Dec 2016 09:50:05 +0100	Cleanup in merging/notebooks.	nbdime/merging/notebooks.py
+b14980c	3db616c	Martin Sandve Alnæs	martinal@simula.no	Thu, 1 Dec 2016 09:45:40 +0100	Add patch_singleline_string utility.	nbdime/patching.py
+3db616c	b131efe	Martin Sandve Alnæs	martinal@simula.no	Thu, 1 Dec 2016 09:44:31 +0100	Minor refactoring of source conflict rendering utils.	nbdime/prettyprint.py,nbdime/utils.py
 b131efe	c375fe4	Martin Sandve Alnæs	martinal@simula.no	Wed, 30 Nov 2016 15:41:26 +0100	Add example notebooks: 3 with conflicts on either side of source, and 3 with conflicts on outputs.	nbdime/tests/files/output-conflict--1.ipynb,nbdime/tests/files/output-conflict--2.ipynb,nbdime/tests/files/output-conflict--3.ipynb,nbdime/tests/files/source-conflict--1.ipynb,nbdime/tests/files/source-conflict--2.ipynb,nbdime/tests/files/source-conflict--3.ipynb
 c375fe4	60bc309 4d88e5b	Min RK	benjaminrk@gmail.com	Thu, 1 Dec 2016 18:36:47 +0100	Merge pull request #172 from vidartf/clear-outputs	
 4d88e5b	69894b5	Vidar Tonaas Fauske	vidartf@gmail.com	Thu, 1 Dec 2016 18:09:33 +0100	Workaround phosphor issue	nbdime-web/src/common/dragpanel.ts
@@ -1042,8 +1042,8 @@ fd69229	680e2dc	Vidar Tonaas Fauske	vidartf@gmail.com	Thu, 1 Dec 2016 16:36:29 +
 680e2dc	3ecc08c	Vidar Tonaas Fauske	vidartf@gmail.com	Thu, 1 Dec 2016 16:35:58 +0100	Add utilities to check for conflict states on cell	nbdime-web/src/merge/model/cell.ts
 3ecc08c	606dc38	Vidar Tonaas Fauske	vidartf@gmail.com	Thu, 1 Dec 2016 16:35:23 +0100	CSS variable replacement	nbdime/webapp/src/app/diff.css,nbdime/webapp/src/app/merge.css
 60bc309	6ae471f 8e260e2	Martin Sandve Alnæs	martinal@simula.no	Thu, 1 Dec 2016 14:00:13 +0100	Merge pull request #169 from vidartf/fix-apap	
-6ae471f	fe4b29a 124246f	Martin Sandve Alnæs	martinal@simula.no	Thu, 1 Dec 2016 9:29:29 +0100	Merge pull request #167 from vidartf/Cleanup	
-fe4b29a	44ff95e 1e14732	Martin Sandve Alnæs	martinal@simula.no	Thu, 1 Dec 2016 9:23:33 +0100	Merge pull request #171 from willingc/doc-alttxt	
+6ae471f	fe4b29a 124246f	Martin Sandve Alnæs	martinal@simula.no	Thu, 1 Dec 2016 09:29:29 +0100	Merge pull request #167 from vidartf/Cleanup	
+fe4b29a	44ff95e 1e14732	Martin Sandve Alnæs	martinal@simula.no	Thu, 1 Dec 2016 09:23:33 +0100	Merge pull request #171 from willingc/doc-alttxt	
 44ff95e	43f8bcc 9fb94d5	Min RK	benjaminrk@gmail.com	Wed, 30 Nov 2016 20:51:48 +0100	Merge pull request #170 from willingc/docs-part2	
 9fb94d5	e5777a1	Carol Willing	carolcode@willingconsulting.com	Wed, 30 Nov 2016 11:49:24 -0800	Remove work per @minrk	docs/source/restapi.md
 1e14732	fd62e04	Carol Willing	carolcode@willingconsulting.com	Wed, 30 Nov 2016 11:44:25 -0800	Correct link to notebook docs	docs/source/index.rst
@@ -1054,11 +1054,11 @@ db1c762	41e4d0b	Vidar Tonaas Fauske	vidartf@gmail.com	Wed, 30 Nov 2016 20:26:16 
 e5777a1	43f8bcc	Carol Willing	carolcode@willingconsulting.com	Wed, 30 Nov 2016 10:48:19 -0800	Edit formatting and grammar in docs	docs/source/diffing.rst,docs/source/glossary.rst,docs/source/merging.rst,docs/source/restapi.md,docs/source/usecases.rst
 41e4d0b	18761d9	Vidar Tonaas Fauske	vidartf@gmail.com	Wed, 30 Nov 2016 13:27:25 +0100	Adjust merge output styling	nbdime-web/src/styles/merge.css
 18761d9	b5b4053	Vidar Tonaas Fauske	vidartf@gmail.com	Wed, 30 Nov 2016 13:27:15 +0100	Show outputs for onesided merges as well	nbdime-web/src/merge/widget/cell.ts,nbdime-web/src/styles/merge.css
-b5b4053	5660b34	Vidar Tonaas Fauske	vidartf@gmail.com	Wed, 30 Nov 2016 13:26:20 +0100	"Only add ""Clear outputs"" when there are outputs"	nbdime-web/src/merge/widget/cell.ts
+b5b4053	5660b34	Vidar Tonaas Fauske	vidartf@gmail.com	Wed, 30 Nov 2016 13:26:20 +0100	Only add "Clear outputs" when there are outputs	nbdime-web/src/merge/widget/cell.ts
 5660b34	37f5ee7	Vidar Tonaas Fauske	vidartf@gmail.com	Wed, 30 Nov 2016 13:25:20 +0100	Sort imports in cell merge widget	nbdime-web/src/merge/widget/cell.ts
 37f5ee7	6c05236	Vidar Tonaas Fauske	vidartf@gmail.com	Wed, 30 Nov 2016 11:58:04 +0100	Prefer rendered output view when not two-sided	nbdime-web/src/diff/widget/cell.ts
 6c05236	40a00f4	Vidar Tonaas Fauske	vidartf@gmail.com	Wed, 30 Nov 2016 11:56:37 +0100	Fix/adjust merge styling	nbdime-web/src/styles/merge.css
-40a00f4	742db58	Vidar Tonaas Fauske	vidartf@gmail.com	Wed, 16 Nov 2016 18:47:46 +0100	"Add ""clear outputs"" button on each cell"	nbdime-web/src/merge/widget/cell.ts,nbdime-web/src/styles/merge.css
+40a00f4	742db58	Vidar Tonaas Fauske	vidartf@gmail.com	Wed, 16 Nov 2016 18:47:46 +0100	Add "clear outputs" button on each cell	nbdime-web/src/merge/widget/cell.ts,nbdime-web/src/styles/merge.css
 742db58	43f8bcc	Vidar Tonaas Fauske	vidartf@gmail.com	Wed, 16 Nov 2016 18:40:20 +0100	Add `clearOutputs` flag on cell model	nbdime-web/src/merge/model/cell.ts
 43f8bcc	ff7b295 1750a94	Vidar Tonaas Fauske	vidartf@gmail.com	Wed, 30 Nov 2016 19:10:46 +0100	Merge pull request #161 from minrk/global-nbdimeserver-state	
 8e260e2	8ec2b5c	Vidar Tonaas Fauske	vidartf@gmail.com	Wed, 30 Nov 2016 18:45:10 +0100	Fix handling of AP/AP conflicts	nbdime/merging/generic.py
@@ -1080,18 +1080,18 @@ fc36481	5982dcd	Vidar Tonaas Fauske	vidartf@gmail.com	Wed, 30 Nov 2016 17:30:25 
 7a87d45	551116b	Min RK	benjaminrk@gmail.com	Wed, 30 Nov 2016 15:20:29 +0100	server-side errors should be 500	nbdime/webapp/nbdimeserver.py
 551116b	124f426	Min RK	benjaminrk@gmail.com	Wed, 30 Nov 2016 15:09:53 +0100	log errors in nbdimeserver	nbdime/log.py,nbdime/webapp/nbdimeserver.py
 124f426	d188aa0	Min RK	benjaminrk@gmail.com	Wed, 30 Nov 2016 14:39:36 +0100	remove some global nbdimeserver state	nbdime/webapp/nbdimeserver.py
-e07b480	7e07be5	Carol Willing	carolcode@willingconsulting.com	Wed, 30 Nov 2016 5:13:46 -0800	Add link	README.md
-7e07be5	d188aa0	Carol Willing	carolcode@willingconsulting.com	Wed, 30 Nov 2016 5:04:15 -0800	Update README for release	README.md
+e07b480	7e07be5	Carol Willing	carolcode@willingconsulting.com	Wed, 30 Nov 2016 05:13:46 -0800	Add link	README.md
+7e07be5	d188aa0	Carol Willing	carolcode@willingconsulting.com	Wed, 30 Nov 2016 05:04:15 -0800	Update README for release	README.md
 d188aa0	0d5a79c 5c074e9	Min RK	benjaminrk@gmail.com	Wed, 30 Nov 2016 14:02:13 +0100	Merge pull request #159 from willingc/doc-edits	
 dd3ff8b	63df92e	Min RK	benjaminrk@gmail.com	Wed, 30 Nov 2016 12:02:40 +0100	don't forget to store log-level arg	nbdime/args.py,nbdime/tests/test_cli_apps.py
-5c074e9	cc34f28	Carol Willing	carolcode@willingconsulting.com	Wed, 30 Nov 2016 4:02:35 -0800	Remove extra colon	docs/source/cli.rst
+5c074e9	cc34f28	Carol Willing	carolcode@willingconsulting.com	Wed, 30 Nov 2016 04:02:35 -0800	Remove extra colon	docs/source/cli.rst
 cc34f28	d3fec68	Carol Willing	carolcode@willingconsulting.com	Mon, 28 Nov 2016 11:34:11 -0800	Edit cli doc	docs/source/cli.rst
-d3fec68	0d5a79c	Carol Willing	carolcode@willingconsulting.com	Wed, 30 Nov 2016 3:39:49 -0800	Edit doc files and add requirements	docs/doc-requirements.txt,docs/source/cli.rst,docs/source/diffing.rst,docs/source/merging.rst,docs/source/testing.rst,docs/source/vcs.rst
+d3fec68	0d5a79c	Carol Willing	carolcode@willingconsulting.com	Wed, 30 Nov 2016 03:39:49 -0800	Edit doc files and add requirements	docs/doc-requirements.txt,docs/source/cli.rst,docs/source/diffing.rst,docs/source/merging.rst,docs/source/testing.rst,docs/source/vcs.rst
 63df92e	2b2b52d	Martin Sandve Alnæs	martinal@simula.no	Wed, 30 Nov 2016 10:11:45 +0100	Add take-max strategy for nbformat_minor, picking the largest of the three input values on conflict.	nbdime/merging/autoresolve.py,nbdime/merging/notebooks.py
 2b2b52d	20caab9	Martin Sandve Alnæs	martinal@simula.no	Wed, 30 Nov 2016 10:08:02 +0100	Remove some newlines in decision printing.	nbdime/prettyprint.py
 20caab9	794cd23	Martin Sandve Alnæs	martinal@simula.no	Wed, 30 Nov 2016 10:07:34 +0100	Print all decisions with nbmerge -d, not just conflicted.	nbdime/nbmergeapp.py
-794cd23	2773066	Martin Sandve Alnæs	martinal@simula.no	Wed, 30 Nov 2016 9:54:14 +0100	Fix test expectation after rebase.	nbdime/tests/test_merge_notebooks.py
-2773066	dce6bd1	Martin Sandve Alnæs	martinal@simula.no	Wed, 30 Nov 2016 9:48:58 +0100	Address minor issues from review.	nbdime/merging/decisions.py,nbdime/prettyprint.py,nbdime/utils.py
+794cd23	2773066	Martin Sandve Alnæs	martinal@simula.no	Wed, 30 Nov 2016 09:54:14 +0100	Fix test expectation after rebase.	nbdime/tests/test_merge_notebooks.py
+2773066	dce6bd1	Martin Sandve Alnæs	martinal@simula.no	Wed, 30 Nov 2016 09:48:58 +0100	Address minor issues from review.	nbdime/merging/decisions.py,nbdime/prettyprint.py,nbdime/utils.py
 dce6bd1	64f6904	Martin Sandve Alnæs	martinal@simula.no	Tue, 29 Nov 2016 14:56:58 +0100	Add calls to git merge-file or diff3 to render inline source conflicts.	nbdime/merging/autoresolve.py,nbdime/merging/notebooks.py,nbdime/prettyprint.py,nbdime/tests/conftest.py,nbdime/tests/test_autoresolve.py
 64f6904	c17e46c	Martin Sandve Alnæs	martinal@simula.no	Tue, 29 Nov 2016 14:53:48 +0100	Handle missing timestamp for non-files in prettyprint.	nbdime/prettyprint.py
 c17e46c	ba78ff6	Martin Sandve Alnæs	martinal@simula.no	Tue, 29 Nov 2016 14:49:59 +0100	Nitpicking for code clarity.	nbdime/merging/decisions.py
@@ -1099,8 +1099,8 @@ ba78ff6	3f09335	Martin Sandve Alnæs	martinal@simula.no	Tue, 29 Nov 2016 14:44:4
 3f09335	763bea0	Martin Sandve Alnæs	martinal@simula.no	Tue, 29 Nov 2016 14:43:35 +0100	Use isdecimal instead of isnumeric and avoid conditional for readability.	nbdime/utils.py
 763bea0	2517fae	Martin Sandve Alnæs	martinal@simula.no	Tue, 29 Nov 2016 14:42:17 +0100	Make patch_dict slightly easier to follow (IMHO) and return a NotebookNode.	nbdime/patching.py
 2517fae	0d5a79c	Martin Sandve Alnæs	martinal@simula.no	Tue, 29 Nov 2016 14:40:48 +0100	Make output diff predicate more robust by handling unknown keys.	nbdime/diffing/notebooks.py
-0d5a79c	19d7375 8d16d54	Martin Sandve Alnæs	martinal@simula.no	Wed, 30 Nov 2016 9:28:04 +0100	Merge pull request #153 from vidartf/merge-strategries-cli	
-19d7375	40979fa f7aed91	Martin Sandve Alnæs	martinal@simula.no	Wed, 30 Nov 2016 8:42:04 +0100	Merge pull request #157 from jupyter/willingc-readme	
+0d5a79c	19d7375 8d16d54	Martin Sandve Alnæs	martinal@simula.no	Wed, 30 Nov 2016 09:28:04 +0100	Merge pull request #153 from vidartf/merge-strategries-cli	
+19d7375	40979fa f7aed91	Martin Sandve Alnæs	martinal@simula.no	Wed, 30 Nov 2016 08:42:04 +0100	Merge pull request #157 from jupyter/willingc-readme	
 f7aed91	40979fa	Carol Willing	carolcode@willingconsulting.com	Tue, 29 Nov 2016 12:09:37 -0800	Add docs badge to readme	README.md
 40979fa	854f22d b9575c2	Carol Willing	carolcode@willingconsulting.com	Tue, 29 Nov 2016 14:05:31 -0600	Merge pull request #156 from jupyter/willingc-patch-1	
 b9575c2	854f22d	Carol Willing	carolcode@willingconsulting.com	Tue, 29 Nov 2016 12:00:20 -0800	Update the sphinx version for RTD	docs/source/conf.py
@@ -1132,7 +1132,7 @@ a6a35bc	19fcc4b	Carol Willing	carolcode@willingconsulting.com	Mon, 28 Nov 2016 1
 2d500c2	e7ea6f2	Carol Willing	carolcode@willingconsulting.com	Mon, 28 Nov 2016 10:27:34 -0800	Add Python3 example for install	docs/source/installing.rst
 71106dd	18f7b08	Vidar Tonaas Fauske	vidartf@gmail.com	Mon, 28 Nov 2016 18:39:45 +0100	Fix `ignore-transients` help string	nbdime/args.py
 18f7b08	118b883	Vidar Tonaas Fauske	vidartf@gmail.com	Mon, 28 Nov 2016 18:31:33 +0100	Rename `join` strategy as `union` to match git	nbdime/merging/autoresolve.py,nbdime/merging/notebooks.py,nbdime/tests/test_autoresolve.py
-e7ea6f2	dee5c9a	Carol Willing	carolcode@willingconsulting.com	Mon, 28 Nov 2016 9:28:03 -0800	Edit index content	docs/source/conf.py,docs/source/index.rst
+e7ea6f2	dee5c9a	Carol Willing	carolcode@willingconsulting.com	Mon, 28 Nov 2016 09:28:03 -0800	Edit index content	docs/source/conf.py,docs/source/index.rst
 118b883	81ce3d5	Vidar Tonaas Fauske	vidartf@gmail.com	Mon, 28 Nov 2016 18:19:30 +0100	Simple tests merge ignore vs fall_back	nbdime/tests/test_autoresolve.py
 81ce3d5	9421a58	Vidar Tonaas Fauske	vidartf@gmail.com	Mon, 28 Nov 2016 18:07:16 +0100	Explicitly ask for inline strategy in inline test	nbdime/tests/test_autoresolve.py
 9421a58	dee5c9a	Vidar Tonaas Fauske	vidartf@gmail.com	Mon, 28 Nov 2016 17:37:14 +0100	Refactor merge strategy interface	nbdime/args.py,nbdime/merging/autoresolve.py,nbdime/merging/notebooks.py,nbdime/tests/test_autoresolve.py,nbdime/tests/test_merge_notebooks.py,nbdime/utils.py
@@ -1161,10 +1161,10 @@ f574f0f	8f34790	Martin Sandve Alnæs	martinal@simula.no	Mon, 28 Nov 2016 11:34:0
 ad491ce	24ca648	Martin Sandve Alnæs	martinal@simula.no	Mon, 28 Nov 2016 11:07:46 +0100	Use logger instead of print in merge debug output.	nbdime/merging/notebooks.py
 24ca648	48c2eae	Martin Sandve Alnæs	martinal@simula.no	Mon, 28 Nov 2016 10:44:20 +0100	Split pretty_print_value into pretty_print_value without path and pretty_print_value_at with path. Fix addrange and removerange handling at /cells and /outputs.	nbdime/prettyprint.py,nbdime/tests/test_prettyprint.py
 48c2eae	2b2d966	Martin Sandve Alnæs	martinal@simula.no	Mon, 28 Nov 2016 10:10:09 +0100	Change tests to cover more of pretty_print_value with paths.	nbdime/prettyprint.py,nbdime/tests/test_prettyprint.py
-2b2d966	466377a	Martin Sandve Alnæs	martinal@simula.no	Mon, 28 Nov 2016 9:40:55 +0100	Remove unused test fixtures.	nbdime/prettyprint.py,nbdime/tests/conftest.py,nbdime/tests/test_git_diffdriver.py
-466377a	9884fb4	Martin Sandve Alnæs	martinal@simula.no	Mon, 28 Nov 2016 9:36:07 +0100	Drop 'No newline at end of file' in difflib render.	nbdime/prettyprint.py
-9884fb4	f834eb4	Martin Sandve Alnæs	martinal@simula.no	Mon, 28 Nov 2016 9:35:40 +0100	Fix indentation of difflib render.	nbdime/prettyprint.py
-806239e	b20f4a1 95f3418	Martin Sandve Alnæs	martinal@simula.no	Mon, 28 Nov 2016 9:16:13 +0100	Merge pull request #145 from minrk/setup-py-pass	
+2b2d966	466377a	Martin Sandve Alnæs	martinal@simula.no	Mon, 28 Nov 2016 09:40:55 +0100	Remove unused test fixtures.	nbdime/prettyprint.py,nbdime/tests/conftest.py,nbdime/tests/test_git_diffdriver.py
+466377a	9884fb4	Martin Sandve Alnæs	martinal@simula.no	Mon, 28 Nov 2016 09:36:07 +0100	Drop 'No newline at end of file' in difflib render.	nbdime/prettyprint.py
+9884fb4	f834eb4	Martin Sandve Alnæs	martinal@simula.no	Mon, 28 Nov 2016 09:35:40 +0100	Fix indentation of difflib render.	nbdime/prettyprint.py
+806239e	b20f4a1 95f3418	Martin Sandve Alnæs	martinal@simula.no	Mon, 28 Nov 2016 09:16:13 +0100	Merge pull request #145 from minrk/setup-py-pass	
 95f3418	d0fc5b3	Min RK	benjaminrk@gmail.com	Fri, 25 Nov 2016 16:35:57 +0100	wrap bdist_wheel with strict=True	setup.py
 d0fc5b3	55ecc66	Min RK	benjaminrk@gmail.com	Fri, 25 Nov 2016 15:42:17 +0100	simplify use of setuptools	setup.py
 55ecc66	b20f4a1	Min RK	benjaminrk@gmail.com	Fri, 25 Nov 2016 15:41:12 +0100	simplify skip_npm handling	setup.py
@@ -1186,7 +1186,7 @@ b7cdb5f	8afef22	Martin Sandve Alnæs	martinal@simula.no	Mon, 21 Nov 2016 21:53:0
 7869c98	47e9aa1	Martin Sandve Alnæs	martinal@simula.no	Mon, 21 Nov 2016 14:42:14 +0100	Implement prettyprinting of notebooks and notebook decisions.	nbdime/merging/notebooks.py,nbdime/nbmergeapp.py,nbdime/prettyprint.py
 47e9aa1	9e4688d	Martin Sandve Alnæs	martinal@simula.no	Mon, 21 Nov 2016 14:40:56 +0100	Change --loglevel to --log-level for consistency with ipython and use it in nbdiff and nbpatch (nbmerge will be in next commit with other changes).	nbdime/args.py,nbdime/nbdiffapp.py,nbdime/nbpatchapp.py,nbdime/webapp/nbdifftool.py,nbdime/webapp/nbdiffweb.py,nbdime/webapp/nbdimeserver.py,nbdime/webapp/nbmergetool.py,nbdime/webapp/nbmergeweb.py
 794db98	958bf06	Vidar Tonaas Fauske	vidartf@gmail.com	Thu, 24 Nov 2016 11:47:44 +0100	Remove unneeded lib from tsconfigs	nbdime-web/src/tsconfig.json,nbdime-web/test/src/tsconfig.json,nbdime/webapp/src/tsconfig.json
-958bf06	5cb9881	Vidar Tonaas Fauske	vidartf@gmail.com	Thu, 24 Nov 2016 11:28:57 +0100	"Banner: ""Execution count will be cleared"" on cells"	nbdime-web/src/merge/decisions.ts,nbdime-web/src/merge/model/cell.ts,nbdime-web/src/merge/widget/cell.ts
+958bf06	5cb9881	Vidar Tonaas Fauske	vidartf@gmail.com	Thu, 24 Nov 2016 11:28:57 +0100	Banner: "Execution count will be cleared" on cells	nbdime-web/src/merge/decisions.ts,nbdime-web/src/merge/model/cell.ts,nbdime-web/src/merge/widget/cell.ts
 5cb9881	f923595	Vidar Tonaas Fauske	vidartf@gmail.com	Wed, 23 Nov 2016 18:09:12 +0100	Show basic input execution_count in diff	nbdime-web/src/diff/model/immutable.ts,nbdime-web/src/diff/widget/cell.ts,nbdime-web/src/styles/diff.css
 f923595	90698aa	Vidar Tonaas Fauske	vidartf@gmail.com	Wed, 23 Nov 2016 17:10:05 +0100	Add execution count as immutable model	nbdime-web/src/diff/model/cell.ts,nbdime-web/src/diff/model/immutable.ts,nbdime-web/src/diff/model/index.ts,nbdime-web/src/merge/model/cell.ts
 90698aa	99ea073	Vidar Tonaas Fauske	vidartf@gmail.com	Wed, 23 Nov 2016 10:35:53 +0100	Typo	nbdime/merging/generic.py
@@ -1207,9 +1207,9 @@ f417e17	3288378	Vidar Tonaas Fauske	vidartf@gmail.com	Mon, 21 Nov 2016 15:14:29 
 3288378	8b487cc	Vidar Tonaas Fauske	vidartf@gmail.com	Mon, 21 Nov 2016 15:13:34 +0100	Use paths for content type in prettyprint	nbdime/prettyprint.py,nbdime/tests/test_prettyprint.py,nbdime/utils.py
 8b487cc	3f142d7	Vidar Tonaas Fauske	vidartf@gmail.com	Mon, 21 Nov 2016 15:12:29 +0100	Have prettyprint always use `present_value`	nbdime/prettyprint.py
 3f142d7	ab3cc94	Vidar Tonaas Fauske	vidartf@gmail.com	Mon, 21 Nov 2016 13:33:30 +0100	Add test files with attachments field on cell	nbdime/tests/files/attachment--change_attachment.ipynb,nbdime/tests/files/attachment--remove_attachment.ipynb,nbdime/tests/files/attachment.ipynb
-ab3cc94	cb3f3a9 461e850	Martin Sandve Alnæs	martinal@simula.no	Mon, 21 Nov 2016 9:37:14 +0100	Merge pull request #134 from vidartf/fix-dist	
-cb3f3a9	2b56e31 0fe5f56	Martin Sandve Alnæs	martinal@simula.no	Mon, 21 Nov 2016 9:36:54 +0100	Merge pull request #135 from vidartf/adjust-diff-output-styles	
-2b56e31	213d30e 6c89d8a	Martin Sandve Alnæs	martinal@simula.no	Mon, 21 Nov 2016 9:36:41 +0100	Merge pull request #136 from vidartf/test-json-output	
+ab3cc94	cb3f3a9 461e850	Martin Sandve Alnæs	martinal@simula.no	Mon, 21 Nov 2016 09:37:14 +0100	Merge pull request #134 from vidartf/fix-dist	
+cb3f3a9	2b56e31 0fe5f56	Martin Sandve Alnæs	martinal@simula.no	Mon, 21 Nov 2016 09:36:54 +0100	Merge pull request #135 from vidartf/adjust-diff-output-styles	
+2b56e31	213d30e 6c89d8a	Martin Sandve Alnæs	martinal@simula.no	Mon, 21 Nov 2016 09:36:41 +0100	Merge pull request #136 from vidartf/test-json-output	
 6c89d8a	636198d	Vidar Tonaas Fauske	vidartf@gmail.com	Fri, 18 Nov 2016 18:58:05 +0100	Add JSON output awareness for better performance	nbdime-web/src/diff/widget/cell.ts,nbdime/diffing/notebooks.py
 636198d	5373bb4	Vidar Tonaas Fauske	vidartf@gmail.com	Fri, 18 Nov 2016 18:57:18 +0100	Fix error in patch deletion highlighting location	nbdime-web/src/patch/index.ts
 5373bb4	ed20b68	Vidar Tonaas Fauske	vidartf@gmail.com	Fri, 18 Nov 2016 18:56:37 +0100	Fix patch with null values	nbdime-web/src/diff/model/string.ts,nbdime-web/src/merge/model/common.ts,nbdime-web/src/patch/index.ts
@@ -1231,14 +1231,14 @@ d1f91f8	bbc81b0	Vidar Tonaas Fauske	vidartf@gmail.com	Thu, 17 Nov 2016 16:02:52 
 bbc81b0	a2412d9	Vidar Tonaas Fauske	vidartf@gmail.com	Thu, 17 Nov 2016 16:02:19 +0100	Extract common webapp styles to common.css	nbdime/webapp/src/app/common.css,nbdime/webapp/src/app/diff.css,nbdime/webapp/src/app/merge.css
 a2412d9	a7ba5f4	Vidar Tonaas Fauske	vidartf@gmail.com	Thu, 17 Nov 2016 16:00:51 +0100	Move style imports	nbdime/webapp/src/app/common.ts,nbdime/webapp/src/app/diff.ts,nbdime/webapp/src/app/merge.ts,nbdime/webapp/src/index.ts
 a7ba5f4	0aa5782	Vidar Tonaas Fauske	vidartf@gmail.com	Thu, 17 Nov 2016 14:58:19 +0100	Fix/adjust styling of one-sided diffs	nbdime-web/src/diff/widget/cell.ts,nbdime-web/src/diff/widget/output.ts,nbdime-web/src/styles/diff.css
-0aa5782	753135a 2dabe94	Martin Sandve Alnæs	martinal@simula.no	Thu, 17 Nov 2016 8:19:44 +0100	Merge pull request #128 from vidartf/refactor-widgets	
+0aa5782	753135a 2dabe94	Martin Sandve Alnæs	martinal@simula.no	Thu, 17 Nov 2016 08:19:44 +0100	Merge pull request #128 from vidartf/refactor-widgets	
 2dabe94	14982ab	Vidar Tonaas Fauske	vidartf@gmail.com	Wed, 16 Nov 2016 18:06:13 +0100	Refactor merge widgets	nbdime-web/src/merge/widget.ts,nbdime-web/src/merge/widget/cell.ts,nbdime-web/src/merge/widget/common.ts,nbdime-web/src/merge/widget/index.ts,nbdime-web/src/merge/widget/metadata.ts,nbdime-web/src/merge/widget/notebook.ts,nbdime-web/src/merge/widget/output.ts
 14982ab	753135a	Vidar Tonaas Fauske	vidartf@gmail.com	Wed, 16 Nov 2016 17:35:33 +0100	Refactor diff widgets	nbdime-web/src/diff/widget/cell.ts,nbdime-web/src/diff/widget/common.ts,nbdime-web/src/diff/widget/index.ts,nbdime-web/src/diff/widget/metadata.ts,nbdime-web/src/diff/widget/notebook.ts,nbdime-web/src/diff/widget/output.ts
 753135a	f8767b7 da94885	Martin Sandve Alnæs	martinal@simula.no	Wed, 16 Nov 2016 12:56:04 +0100	Merge pull request #125 from vidartf/improve-chunking	
 da94885	87492c5	Vidar Tonaas Fauske	vidartf@gmail.com	Wed, 16 Nov 2016 11:44:33 +0100	Switch to using ts-loader for now	nbdime-web/package.json,nbdime-web/src/tsconfig.json,nbdime-web/src/typings.d.ts,nbdime-web/test/src/typings.d.ts,nbdime-web/tsconfig.json,nbdime-web/webpack.test.config.js,nbdime/webapp/package.json,nbdime/webapp/webpack.config.js
 87492c5	842e4b6	Vidar Tonaas Fauske	vidartf@gmail.com	Wed, 16 Nov 2016 10:13:21 +0100	Rename + cleanup	nbdime-web/src/chunking/decisionchunking.ts
 f8767b7	2fd4a9e 5908bc7	Vidar Tonaas Fauske	vidartf@gmail.com	Wed, 16 Nov 2016 10:00:20 +0100	Merge pull request #126 from jupyter/add-browser-argument	
-5908bc7	7ecb50f	Martin Sandve Alnæs	martinal@simula.no	Wed, 16 Nov 2016 8:35:27 +0100	Make browser argument default to None.	nbdime/args.py,nbdime/webapp/nbdifftool.py,nbdime/webapp/nbdiffweb.py,nbdime/webapp/nbmergetool.py,nbdime/webapp/nbmergeweb.py
+5908bc7	7ecb50f	Martin Sandve Alnæs	martinal@simula.no	Wed, 16 Nov 2016 08:35:27 +0100	Make browser argument default to None.	nbdime/args.py,nbdime/webapp/nbdifftool.py,nbdime/webapp/nbdiffweb.py,nbdime/webapp/nbmergetool.py,nbdime/webapp/nbmergeweb.py
 842e4b6	eadd962	Vidar Tonaas Fauske	vidartf@gmail.com	Tue, 15 Nov 2016 15:39:36 +0100	Add collections to test libs	nbdime-web/test/src/tsconfig.json
 eadd962	19d1758	Vidar Tonaas Fauske	vidartf@gmail.com	Tue, 15 Nov 2016 15:39:21 +0100	Fix specification of test tsconfig	nbdime-web/webpack.test.config.js
 2fd4a9e	48e2c13 f05d07a	Martin Sandve Alnæs	martinal@simula.no	Mon, 14 Nov 2016 16:15:23 +0100	Merge pull request #127 from vidartf/logging	
@@ -1322,8 +1322,8 @@ e3e5f44	39f146f 7acc1ed	Vidar Tonaas Fauske	vidartf@gmail.com	Mon, 31 Oct 2016 1
 973abd4	f6884b0	Vidar Tonaas Fauske	vidartf@gmail.com	Mon, 31 Oct 2016 10:36:17 +0100	Pass `set_default` flag to tool config function	nbdime/gitdifftool.py,nbdime/gitmergetool.py
 f6884b0	a57e4e3 e5a7e99	Vidar Tonaas Fauske	vidartf@gmail.com	Mon, 31 Oct 2016 10:34:02 +0100	Merge pull request #104 from minrk/base-local-remote	
 e5a7e99	a57e4e3	Min RK	benjaminrk@gmail.com	Mon, 31 Oct 2016 10:24:42 +0100	fix argument ordering in mergetools	nbdime/gitmergetool.py
-a57e4e3	f1a348e	Martin Sandve Alnæs	martinal@simula.no	Mon, 31 Oct 2016 8:55:14 +0100	Fix unicode bug in writing .gitattributes.	nbdime/gitdiffdriver.py,nbdime/gitmergedriver.py
-f1a348e	31e286d f173c75	Vidar Tonaas Fauske	vidartf@gmail.com	Thu, 27 Oct 2016 9:48:50 +0200	Merge pull request #102 from jupyter/martinal/use-io-open	
+a57e4e3	f1a348e	Martin Sandve Alnæs	martinal@simula.no	Mon, 31 Oct 2016 08:55:14 +0100	Fix unicode bug in writing .gitattributes.	nbdime/gitdiffdriver.py,nbdime/gitmergedriver.py
+f1a348e	31e286d f173c75	Vidar Tonaas Fauske	vidartf@gmail.com	Thu, 27 Oct 2016 09:48:50 +0200	Merge pull request #102 from jupyter/martinal/use-io-open	
 31e286d	acc356a 47d47c5	Martin Sandve Alnæs	martinal@simula.no	Wed, 26 Oct 2016 10:13:46 +0200	Merge pull request #100 from vidartf/fix-pp	
 f173c75	e2c9c5a	Martin Sandve Alnæs	martinal@simula.no	Wed, 26 Oct 2016 10:09:26 +0200	Disable assert on nbformat_minor.	nbdime/tests/fixtures.py
 e2c9c5a	bb3ac30	Martin Sandve Alnæs	martinal@simula.no	Wed, 26 Oct 2016 10:06:51 +0200	Add example files with unicode to tests.	nbdime/tests/files/unicode--1.ipynb,nbdime/tests/files/unicode--2.ipynb
@@ -1398,12 +1398,12 @@ aeaee9a	84eda7b	Vidar Tonaas Fauske	vidartf@gmail.com	Thu, 6 Oct 2016 17:07:49 +
 f275c71	3852d6a	Vidar Tonaas Fauske	vidartf@gmail.com	Thu, 6 Oct 2016 13:17:44 +0200	Replace namespace constants with string literals	nbdime-web/src/diff/diffentries.ts,nbdime-web/src/diff/model.ts,nbdime-web/src/diff/util.ts,nbdime-web/src/merge/model.ts,nbdime-web/src/patch/index.ts,nbdime-web/test/src/diffing/patching.spec.ts
 3852d6a	cf05fdb	Vidar Tonaas Fauske	vidartf@gmail.com	Tue, 27 Sep 2016 15:16:46 +0200	Adjust variable names	nbdime-web/src/chunking/index.ts,nbdime-web/src/common/mergeview.ts,nbdime-web/test/src/diffing/chunking.spec.ts,nbdime-web/typings/codemirror.d.ts
 cf05fdb	da17b37	vidartf	vidartf@gmail.com	Tue, 4 Oct 2016 17:45:31 +0200	Minor fix	nbdime-web/src/common/mergeview.ts,nbdime-web/src/diff/util.ts
-da17b37	8501759 c211091	Martin Sandve Alnæs	martinal@simula.no	Mon, 10 Oct 2016 9:38:03 +0200	Merge pull request #86 from vidartf/fix-tools	
-8501759	48e865b e71bfee	Martin Sandve Alnæs	martinal@simula.no	Mon, 10 Oct 2016 9:36:26 +0200	Merge pull request #87 from vidartf/docs2	
-48e865b	b9eca71 6586f20	Martin Sandve Alnæs	martinal@simula.no	Mon, 10 Oct 2016 9:33:43 +0200	Merge pull request #89 from adamchainz/readthedocs.io	
+da17b37	8501759 c211091	Martin Sandve Alnæs	martinal@simula.no	Mon, 10 Oct 2016 09:38:03 +0200	Merge pull request #86 from vidartf/fix-tools	
+8501759	48e865b e71bfee	Martin Sandve Alnæs	martinal@simula.no	Mon, 10 Oct 2016 09:36:26 +0200	Merge pull request #87 from vidartf/docs2	
+48e865b	b9eca71 6586f20	Martin Sandve Alnæs	martinal@simula.no	Mon, 10 Oct 2016 09:33:43 +0200	Merge pull request #89 from adamchainz/readthedocs.io	
 6586f20	b9eca71	Adam Chainz	adam@adamj.eu	Sun, 9 Oct 2016 22:06:48 +0100	Convert readthedocs links for their .org -> .io migration for hosted projects	README.md
 e71bfee	0fb66c7	vidartf	vidartf@gmail.com	Fri, 7 Oct 2016 12:29:30 +0200	Add VCS integration to docs	docs/source/index.rst,docs/source/vcs.rst
-0fb66c7	b9eca71	vidartf	vidartf@gmail.com	Wed, 5 Oct 2016 0:09:13 +0200	WIP VCS integration docs	docs/source/vcs.rst
+0fb66c7	b9eca71	vidartf	vidartf@gmail.com	Wed, 5 Oct 2016 00:09:13 +0200	WIP VCS integration docs	docs/source/vcs.rst
 c211091	6ca43c6	vidartf	vidartf@gmail.com	Fri, 7 Oct 2016 14:14:26 +0200	npm run update clean right folder	nbdime/webapp/package.json
 6ca43c6	662c0dc	vidartf	vidartf@gmail.com	Fri, 7 Oct 2016 14:14:10 +0200	Fix clear entry for merge view	nbdime-web/src/common/mergeview.ts
 662c0dc	9b614d4	vidartf	vidartf@gmail.com	Fri, 7 Oct 2016 13:52:47 +0200	Ensure browser gets resolved random port number!	nbdime/webapp/nbdifftool.py,nbdime/webapp/nbdiffweb.py,nbdime/webapp/nbdimeserver.py,nbdime/webapp/nbmergetool.py,nbdime/webapp/nbmergeweb.py
@@ -1412,13 +1412,13 @@ dabb078	89974ba	vidartf	vidartf@gmail.com	Fri, 7 Oct 2016 13:47:05 +0200	Update 
 b9eca71	89974ba d0954fa	Min RK	benjaminrk@gmail.com	Fri, 7 Oct 2016 13:15:10 +0200	Merge pull request #85 from vidartf/change-reg	
 d0954fa	89974ba	vidartf	vidartf@gmail.com	Fri, 7 Oct 2016 12:27:20 +0200	Change how diff/merge tools register	nbdime/gitdifftool.py,nbdime/gitmergetool.py
 89974ba	618b233 d956efd	Vidar Tonaas Fauske	vidartf@gmail.com	Wed, 5 Oct 2016 10:33:59 +0200	Merge pull request #83 from jupyter/martinal/topic-cli-fixes	
-d956efd	1c3cdc7	Martin Sandve Alnæs	martinal@simula.no	Wed, 5 Oct 2016 9:08:44 +0200	Fix missing output argument to nbmergeweb and some other minor issues.	nbdime/__main__.py,nbdime/args.py,nbdime/webapp/nbmergetool.py,nbdime/webapp/nbmergeweb.py
-1c3cdc7	fc39011	Martin Sandve Alnæs	martinal@simula.no	Wed, 5 Oct 2016 8:58:34 +0200	"Add back if __name__ == ""__main__"": main() to all apps."	nbdime/gitdiffdriver.py,nbdime/gitdifftool.py,nbdime/gitmergedriver.py,nbdime/gitmergetool.py,nbdime/nbdiffapp.py,nbdime/nbmergeapp.py,nbdime/nbpatchapp.py,nbdime/webapp/nbdifftool.py,nbdime/webapp/nbdiffweb.py,nbdime/webapp/nbdimeserver.py,nbdime/webapp/nbmergetool.py,nbdime/webapp/nbmergeweb.py
-fc39011	ff43aa5	Martin Sandve Alnæs	martinal@simula.no	Wed, 5 Oct 2016 8:58:19 +0200	Change test to check return code.	nbdime/tests/test_git_diffdriver.py
+d956efd	1c3cdc7	Martin Sandve Alnæs	martinal@simula.no	Wed, 5 Oct 2016 09:08:44 +0200	Fix missing output argument to nbmergeweb and some other minor issues.	nbdime/__main__.py,nbdime/args.py,nbdime/webapp/nbmergetool.py,nbdime/webapp/nbmergeweb.py
+1c3cdc7	fc39011	Martin Sandve Alnæs	martinal@simula.no	Wed, 5 Oct 2016 08:58:34 +0200	Add back if __name__ == "__main__": main() to all apps.	nbdime/gitdiffdriver.py,nbdime/gitdifftool.py,nbdime/gitmergedriver.py,nbdime/gitmergetool.py,nbdime/nbdiffapp.py,nbdime/nbmergeapp.py,nbdime/nbpatchapp.py,nbdime/webapp/nbdifftool.py,nbdime/webapp/nbdiffweb.py,nbdime/webapp/nbdimeserver.py,nbdime/webapp/nbmergetool.py,nbdime/webapp/nbmergeweb.py
+fc39011	ff43aa5	Martin Sandve Alnæs	martinal@simula.no	Wed, 5 Oct 2016 08:58:19 +0200	Change test to check return code.	nbdime/tests/test_git_diffdriver.py
 ff43aa5	fb05dfb	Martin Sandve Alnæs	martinal@simula.no	Tue, 4 Oct 2016 15:46:27 +0200	Try to fix base,local,remote argument confusion. Please review carefully.	nbdime/args.py,nbdime/gitdifftool.py,nbdime/gitmergedriver.py,nbdime/gitmergetool.py,nbdime/nbdiffapp.py,nbdime/nbmergeapp.py,nbdime/nbpatchapp.py,nbdime/webapp/nbdifftool.py,nbdime/webapp/nbdiffweb.py,nbdime/webapp/nbmergetool.py,nbdime/webapp/nbmergeweb.py
 fb05dfb	618b233	Martin Sandve Alnæs	martinal@simula.no	Tue, 4 Oct 2016 14:36:27 +0200	Add __main__ and make all main functions return error code instead of exit.	nbdime/__main__.py,nbdime/args.py,nbdime/gitdiffdriver.py,nbdime/gitdifftool.py,nbdime/gitmergedriver.py,nbdime/gitmergetool.py,nbdime/nbdiffapp.py,nbdime/nbmergeapp.py,nbdime/nbpatchapp.py,nbdime/webapp/nbdifftool.py,nbdime/webapp/nbdiffweb.py,nbdime/webapp/nbdimeserver.py,nbdime/webapp/nbmergetool.py,nbdime/webapp/nbmergeweb.py
 618b233	2bed9bb	Martin Sandve Alnæs	martinal@simula.no	Tue, 4 Oct 2016 12:02:13 +0200	Bugfix in setup.py.	setup.py
-2bed9bb	9824304 e40a88b	Martin Sandve Alnæs	martinal@simula.no	Tue, 4 Oct 2016 8:59:29 +0200	Merge pull request #82 from vidartf/docs	
+2bed9bb	9824304 e40a88b	Martin Sandve Alnæs	martinal@simula.no	Tue, 4 Oct 2016 08:59:29 +0200	Merge pull request #82 from vidartf/docs	
 e40a88b	eae5445	vidartf	vidartf@gmail.com	Mon, 3 Oct 2016 17:30:00 +0200	Fix schemas + Add tests using schemas	docs/source/testing.rst,nbdime/diff_format.schema.json,nbdime/merge_format.schema.json,nbdime/tests/test_diff_format.py,nbdime/tests/test_merge_format.py,setup.py
 eae5445	956f0e8	vidartf	vidartf@gmail.com	Mon, 3 Oct 2016 14:36:17 +0200	Synchronize testing docs vs functionality	docs/source/testing.rst,setup.py
 956f0e8	b192780	vidartf	vidartf@gmail.com	Mon, 3 Oct 2016 13:11:28 +0200	Ensure setup.py runs all NPM cmds	setup.py
@@ -1431,14 +1431,14 @@ c891126	3116545	Vidar Tonaas Fauske	vidartf@gmail.com	Fri, 30 Sep 2016 17:18:28 
 3116545	ed3bd3e	Vidar Tonaas Fauske	vidartf@gmail.com	Fri, 30 Sep 2016 17:18:12 +0200	Fix merge format schema	nbdime/merge_format.schema.json
 ed3bd3e	7833f66	Vidar Tonaas Fauske	vidartf@gmail.com	Fri, 30 Sep 2016 14:33:06 +0200	Cleanup CLI part 2	nbdime/args.py,nbdime/webapp/nbdifftool.py,nbdime/webapp/nbdiffweb.py,nbdime/webapp/nbdimeserver.py,nbdime/webapp/nbmergetool.py,nbdime/webapp/nbmergeweb.py,setup.py
 7833f66	9824304	Vidar Tonaas Fauske	vidartf@gmail.com	Fri, 30 Sep 2016 13:58:16 +0200	Clean up CLI	nbdime/args.py,nbdime/gitdiffdriver.py,nbdime/gitmergedriver.py,nbdime/gitmergetool.py,nbdime/merging/notebooks.py,nbdime/nbdiffapp.py,nbdime/nbmergeapp.py,nbdime/nbpatchapp.py,nbdime/tests/test_merge_notebooks.py,nbdime/webapp/nbdifftool.py,nbdime/webapp/nbdimeserver.py,nbdime/webapp/nbmergetool.py
-9824304	88acecf dc14211	Martin Sandve Alnæs	martinal@simula.no	Tue, 27 Sep 2016 9:59:58 +0200	Merge pull request #81 from vidartf/refactorprojects	
+9824304	88acecf dc14211	Martin Sandve Alnæs	martinal@simula.no	Tue, 27 Sep 2016 09:59:58 +0200	Merge pull request #81 from vidartf/refactorprojects	
 dc14211	056ad50	Vidar Tonaas Fauske	vidartf@gmail.com	Mon, 26 Sep 2016 18:57:43 +0200	Add Travis coverage reporting	.travis.yml
 056ad50	6f3f061	Vidar Tonaas Fauske	vidartf@gmail.com	Mon, 26 Sep 2016 18:38:21 +0200	Cleanup	nbdime-web/package.json,nbdime-web/webpack.test.config.js,nbdime/webapp/package.json
 6f3f061	f174d4e	Vidar Tonaas Fauske	vidartf@gmail.com	Mon, 26 Sep 2016 18:16:37 +0200	Add coverage for tests on nbdime-web	.gitignore,nbdime-web/package.json,nbdime-web/scripts/copy-files.js,nbdime-web/scripts/fix-coverage.js,nbdime-web/test/karma.conf.js,nbdime-web/test/src/tsconfig.json,nbdime-web/webpack.test.config.js
 f174d4e	88acecf	Vidar Tonaas Fauske	vidartf@gmail.com	Fri, 23 Sep 2016 14:05:27 +0200	Refactor npm projects pt1	.gitignore,nbdime-web/package.json,nbdime-web/scripts/copyFiles.js,nbdime-web/src/chunking/index.ts,nbdime-web/src/common/collapse_down.svg,nbdime-web/src/common/collapse_up.svg,nbdime-web/src/common/collapsible.css,nbdime-web/src/common/collapsiblepanel.ts,nbdime-web/src/common/dragpanel.css,nbdime-web/src/common/dragpanel.ts,nbdime-web/src/common/mergeview.ts,nbdime-web/src/common/util.ts,nbdime-web/src/diff/diffentries.ts,nbdime-web/src/diff/model.ts,nbdime-web/src/diff/range.ts,nbdime-web/src/diff/util.ts,nbdime-web/src/diff/widgets.ts,nbdime-web/src/merge/decisions.ts,nbdime-web/src/merge/model.ts,nbdime-web/src/merge/widgets.ts,nbdime-web/src/patch/index.ts,nbdime-web/src/request/index.ts,nbdime-web/src/styles/common.css,nbdime-web/src/styles/diff.css,nbdime-web/src/styles/merge.css,nbdime-web/src/tsconfig.json,nbdime-web/src/typings.d.ts,nbdime-web/src/upstreaming/flexpanel.css,nbdime-web/src/upstreaming/flexpanel.ts,nbdime-web/test/karma.conf.js,nbdime-web/test/src/diffing/chunking.spec.ts,nbdime-web/test/src/diffing/decisions.spec.ts,nbdime-web/test/src/diffing/patching.spec.ts,nbdime-web/test/src/diffing/util.spec.ts,nbdime-web/test/src/index.ts,nbdime-web/test/src/tsconfig.json,nbdime-web/test/src/typings.d.ts,nbdime-web/test/webpack.config.js,nbdime-web/tslint.json,nbdime-web/typings/codemirror-metamode.d.ts,nbdime-web/typings/codemirror-runmode.d.ts,nbdime-web/typings/codemirror.d.ts,nbdime-web/typings/es6-promise.d.ts,nbdime-web/typings/expect.js.d.ts,nbdime-web/typings/json-stable-stringify.d.ts,nbdime-web/typings/mocha.d.ts,nbdime-web/typings/require.d.ts,nbdime-web/typings/sanitizer.d.ts,nbdime/webapp/package.json,nbdime/webapp/src/app/common.css,nbdime/webapp/src/app/common.ts,nbdime/webapp/src/app/diff.css,nbdime/webapp/src/app/diff.ts,nbdime/webapp/src/app/merge.css,nbdime/webapp/src/app/merge.ts,nbdime/webapp/webpack.config.js
 88acecf	fe87b7a 4fe2a23	Martin Sandve Alnæs	martinal@simula.no	Fri, 23 Sep 2016 10:42:17 +0200	Merge pull request #77 from vidartf/webapp_mergetool	
-fe87b7a	ce4583a cb5275c	Martin Sandve Alnæs	martinal@simula.no	Fri, 23 Sep 2016 9:54:06 +0200	Merge pull request #79 from vidartf/mergetool_driver_server	
-ce4583a	b94db84 fe72eb4	Martin Sandve Alnæs	martinal@simula.no	Fri, 23 Sep 2016 9:53:56 +0200	Merge pull request #78 from vidartf/server_fixes	
+fe87b7a	ce4583a cb5275c	Martin Sandve Alnæs	martinal@simula.no	Fri, 23 Sep 2016 09:54:06 +0200	Merge pull request #79 from vidartf/mergetool_driver_server	
+ce4583a	b94db84 fe72eb4	Martin Sandve Alnæs	martinal@simula.no	Fri, 23 Sep 2016 09:53:56 +0200	Merge pull request #78 from vidartf/server_fixes	
 4fe2a23	65526f0	Vidar Tonaas Fauske	vidartf@gmail.com	Thu, 22 Sep 2016 14:57:13 +0200	Move styling + adjust diff styling	nbdime/webapp/src/app/cm-merge.css,nbdime/webapp/src/app/common.ts,nbdime/webapp/src/app/diff.css,nbdime/webapp/src/app/diff.ts,nbdime/webapp/src/app/merge.css,nbdime/webapp/src/app/merge.ts
 65526f0	fcc696b	Vidar Tonaas Fauske	vidartf@gmail.com	Thu, 22 Sep 2016 14:28:55 +0200	Upstreaming DragPanel failed, reintegrate	nbdime/webapp/src/app/common.ts,nbdime/webapp/src/app/diff.ts,nbdime/webapp/src/app/merge.ts,nbdime/webapp/src/common/cm-merge.css,nbdime/webapp/src/common/collapse_down.svg,nbdime/webapp/src/common/collapse_up.svg,nbdime/webapp/src/common/collapsible.css,nbdime/webapp/src/common/dragpanel.css,nbdime/webapp/src/common/dragpanel.ts,nbdime/webapp/src/diff/diff.css,nbdime/webapp/src/diff/widgets.ts,nbdime/webapp/src/merge/merge.css,nbdime/webapp/src/merge/widgets.ts,nbdime/webapp/src/upstreaming/utils.ts,nbdime/webapp/templates/diff.html,nbdime/webapp/templates/difftool.html,nbdime/webapp/templates/merge.html,nbdime/webapp/templates/mergetool.html
 fcc696b	5ded474	Vidar Tonaas Fauske	vidartf@gmail.com	Wed, 21 Sep 2016 19:16:53 +0200	Refactor webapp code	nbdime/webapp/src/app/common.ts,nbdime/webapp/src/app/diff.ts,nbdime/webapp/src/app/merge.ts,nbdime/webapp/src/chunking/index.ts,nbdime/webapp/src/common/collapsiblepanel.ts,nbdime/webapp/src/common/mergeview.ts,nbdime/webapp/src/common/util.ts,nbdime/webapp/src/diff/diffentries.ts,nbdime/webapp/src/diff/model.ts,nbdime/webapp/src/diff/range.ts,nbdime/webapp/src/diff/util.ts,nbdime/webapp/src/diff/widgets.ts,nbdime/webapp/src/diffutil.ts,nbdime/webapp/src/index.ts,nbdime/webapp/src/merge/decisions.ts,nbdime/webapp/src/merge/model.ts,nbdime/webapp/src/merge/widgets.ts,nbdime/webapp/src/patch/index.ts,nbdime/webapp/test/src/diffing/chunking.spec.ts,nbdime/webapp/test/src/diffing/decisions.spec.ts,nbdime/webapp/test/src/diffing/patching.spec.ts,nbdime/webapp/test/src/diffing/util.spec.ts
@@ -1470,7 +1470,7 @@ aa16273	73129a2	Vidar Tonaas Fauske	vidartf@gmail.com	Thu, 1 Sep 2016 16:07:05 +
 73129a2	578e161	Vidar Tonaas Fauske	vidartf@gmail.com	Thu, 1 Sep 2016 11:20:39 +0200	Make source maps load for tests	nbdime/webapp/test/webpack.config.js
 578e161	562362a	Vidar Tonaas Fauske	vidartf@gmail.com	Thu, 1 Sep 2016 11:05:19 +0200	Fix webapp tests	nbdime/webapp/nbdimeserver.py,nbdime/webapp/src/util.ts,nbdime/webapp/test/src/diffing/chunking.spec.ts
 562362a	7d0c025	Vidar Tonaas Fauske	vidartf@gmail.com	Thu, 1 Sep 2016 10:49:01 +0200	Adjustments to bundeling	nbdime/webapp/package.json,nbdime/webapp/src/diff.ts,nbdime/webapp/src/widgets.ts,nbdime/webapp/templates/diff.html,nbdime/webapp/templates/difftool.html,nbdime/webapp/templates/merge.html,nbdime/webapp/templates/mergetool.html,nbdime/webapp/webpack.config.js
-7d0c025	227e990	Vidar Tonaas Fauske	vidartf@gmail.com	Fri, 26 Aug 2016 1:17:15 +0200	Adjust styling web tool headers	nbdime/webapp/static/diff.css,nbdime/webapp/static/merge.css,nbdime/webapp/templates/difftool.html,nbdime/webapp/templates/mergetool.html
+7d0c025	227e990	Vidar Tonaas Fauske	vidartf@gmail.com	Fri, 26 Aug 2016 01:17:15 +0200	Adjust styling web tool headers	nbdime/webapp/static/diff.css,nbdime/webapp/static/merge.css,nbdime/webapp/templates/difftool.html,nbdime/webapp/templates/mergetool.html
 227e990	f8dd505	Vidar Tonaas Fauske	vidartf@gmail.com	Mon, 22 Aug 2016 22:08:28 +0200	Made line alignment use chunks of maxlen 1 line	nbdime/webapp/src/chunking.ts,nbdime/webapp/src/diffmodel.ts,nbdime/webapp/src/diffutil.ts,nbdime/webapp/src/mergedecision.ts,nbdime/webapp/src/mergemodel.ts,nbdime/webapp/src/mergeview.ts,nbdime/webapp/src/util.ts
 f8dd505	90b8832	Vidar Tonaas Fauske	vidartf@gmail.com	Mon, 22 Aug 2016 16:17:48 +0200	Fixup styling	nbdime/webapp/static/merge.css
 90b8832	eb53ca5	Vidar Tonaas Fauske	vidartf@gmail.com	Mon, 22 Aug 2016 16:13:25 +0200	Improve merge view	nbdime/webapp/src/mergemodel.ts,nbdime/webapp/src/mergeview.ts,nbdime/webapp/src/widgets.ts,nbdime/webapp/static/merge.css
@@ -1556,10 +1556,10 @@ b3fa1c4	7d82df3	Vidar Tonaas Fauske	vidartf@gmail.com	Tue, 30 Aug 2016 17:33:18 
 6d13e8a	667f445	Vidar Tonaas Fauske	vidartf@gmail.com	Tue, 30 Aug 2016 13:12:48 +0200	Make sequence merging smarter	nbdime/merging/autoresolve.py,nbdime/merging/decisions.py,nbdime/tests/test_autoresolve.py,nbdime/tests/test_merge.py
 667f445	9d8c539	Vidar Tonaas Fauske	vidartf@gmail.com	Mon, 29 Aug 2016 20:59:11 +0200	Docstring fix	nbdime/utils.py
 9d8c539	b17f2e2	Vidar Tonaas Fauske	vidartf@gmail.com	Mon, 29 Aug 2016 20:59:00 +0200	Syntax fix test	nbdime/tests/test_decision_tools.py
-b17f2e2	37260c5	Vidar Tonaas Fauske	vidartf@gmail.com	Fri, 26 Aug 2016 1:18:20 +0200	Fix launching wrong tool	nbdime/webapp/nbdifftool.py
-37260c5	b5c6d0b	Vidar Tonaas Fauske	vidartf@gmail.com	Fri, 26 Aug 2016 1:18:08 +0200	Ensure lineendings are written correctly for git!	nbdime/nbmergeapp.py
-b5c6d0b	ee97e5b	Vidar Tonaas Fauske	vidartf@gmail.com	Fri, 26 Aug 2016 1:17:42 +0200	Fix error one sided combined chunks	nbdime/merging/decisions.py
-ee97e5b	1048b15	Vidar Tonaas Fauske	vidartf@gmail.com	Fri, 26 Aug 2016 1:16:48 +0200	Fix is_all_transient	nbdime/merging/autoresolve.py,nbdime/merging/notebooks.py,nbdime/utils.py
+b17f2e2	37260c5	Vidar Tonaas Fauske	vidartf@gmail.com	Fri, 26 Aug 2016 01:18:20 +0200	Fix launching wrong tool	nbdime/webapp/nbdifftool.py
+37260c5	b5c6d0b	Vidar Tonaas Fauske	vidartf@gmail.com	Fri, 26 Aug 2016 01:18:08 +0200	Ensure lineendings are written correctly for git!	nbdime/nbmergeapp.py
+b5c6d0b	ee97e5b	Vidar Tonaas Fauske	vidartf@gmail.com	Fri, 26 Aug 2016 01:17:42 +0200	Fix error one sided combined chunks	nbdime/merging/decisions.py
+ee97e5b	1048b15	Vidar Tonaas Fauske	vidartf@gmail.com	Fri, 26 Aug 2016 01:16:48 +0200	Fix is_all_transient	nbdime/merging/autoresolve.py,nbdime/merging/notebooks.py,nbdime/utils.py
 1048b15	6f4d04c	Vidar Tonaas Fauske	vidartf@gmail.com	Mon, 22 Aug 2016 16:09:44 +0200	Fix server chunking	nbdime/merging/decisions.py
 6f4d04c	f4558dc	Vidar Tonaas Fauske	vidartf@gmail.com	Thu, 18 Aug 2016 22:40:05 +0200	Update server API for mergetool	nbdime/webapp/nbdimeserver.py
 f4558dc	87ed9bc	Vidar Tonaas Fauske	vidartf@gmail.com	Thu, 18 Aug 2016 22:39:42 +0200	Fix / finish implementation of merge driver	nbdime/gitmergedriver.py
@@ -1593,7 +1593,7 @@ c31e698	142d7ab	Vidar Tonaas Fauske	vidartf@gmail.com	Fri, 5 Aug 2016 18:25:48 +
 e77f8eb	b394549	Vidar Tonaas Fauske	vidartf@gmail.com	Thu, 4 Aug 2016 18:55:57 +0200	Linting	nbdime/merging/decisions.py
 b394549	fbbc447	Vidar Tonaas Fauske	vidartf@gmail.com	Thu, 4 Aug 2016 18:52:38 +0200	Tests (including linting, sorry)	nbdime/tests/test_apply_merge.py,nbdime/tests/test_autoresolve.py,nbdime/tests/test_autoresolve_decisions.py,nbdime/tests/test_decision_tools.py,nbdime/tests/test_merge_notebooks.py
 fbbc447	7996ddb	Vidar Tonaas Fauske	vidartf@gmail.com	Thu, 4 Aug 2016 18:52:15 +0200	Adjust merge_notebooks signature	nbdime/merging/notebooks.py,nbdime/nbmergeapp.py
-7996ddb	6df1da7	Vidar Tonaas Fauske	vidartf@gmail.com	Thu, 4 Aug 2016 18:27:07 +0200	"Re-add ""record-conflict"" strategy"	nbdime/merging/autoresolve_decisions.py
+7996ddb	6df1da7	Vidar Tonaas Fauske	vidartf@gmail.com	Thu, 4 Aug 2016 18:27:07 +0200	Re-add "record-conflict" strategy	nbdime/merging/autoresolve_decisions.py
 6df1da7	5687e15	Vidar Tonaas Fauske	vidartf@gmail.com	Thu, 4 Aug 2016 18:26:49 +0200	Fix minor issues	nbdime/merging/autoresolve_decisions.py,nbdime/merging/decisions.py
 5687e15	701473b	Vidar Tonaas Fauske	vidartf@gmail.com	Thu, 4 Aug 2016 15:52:08 +0200	Auto resolution of conflicted decisions	nbdime/merging/autoresolve_decisions.py,nbdime/merging/notebooks.py
 701473b	be0fb61	Vidar Tonaas Fauske	vidartf@gmail.com	Thu, 4 Aug 2016 15:49:58 +0200	Improve generic decision resolution	nbdime/merging/decisions.py
@@ -1614,10 +1614,10 @@ aa4565c	976b222	Vidar Tonaas Fauske	vidartf@gmail.com	Fri, 29 Jul 2016 13:44:14 
 4e75c5a	90ede10 41a95d2	Min RK	benjaminrk@gmail.com	Wed, 27 Jul 2016 16:07:05 +0200	Merge pull request #68 from vidartf/fix_metadata	
 90ede10	b6b9876 bcd6141	Min RK	benjaminrk@gmail.com	Wed, 27 Jul 2016 16:06:58 +0200	Merge pull request #73 from jupyter/martinal/fix-autoresolve-bug	
 bcd6141	34c3e8b	Martin Sandve Alnæs	martinal@simula.no	Wed, 27 Jul 2016 10:10:30 +0200	Add some automated merge tests.	nbdime/tests/files/error--1.ipynb,nbdime/tests/files/error--2.ipynb,nbdime/tests/files/foo--1.ipynb,nbdime/tests/files/foo--2.ipynb,nbdime/tests/files/markdown-only--1.ipynb,nbdime/tests/files/markdown-only--2.ipynb,nbdime/tests/files/single_cell_nb--changed_ec.ipynb,nbdime/tests/files/single_cell_nb--changed_metadata.ipynb,nbdime/tests/files/single_cell_nb--changed_output.ipynb,nbdime/tests/files/single_cell_nb--changed_source.ipynb,nbdime/tests/files/single_cell_nb--changed_source_output.ipynb,nbdime/tests/files/single_cell_nb--changed_source_output_ec.ipynb,nbdime/tests/files/src-and-output--1.ipynb,nbdime/tests/files/src-and-output--2.ipynb,nbdime/tests/files/test-data-singlecell--1.ipynb,nbdime/tests/files/test-data-singlecell--2.ipynb,nbdime/tests/fixtures.py,nbdime/tests/test_git_diffdriver.py,nbdime/tests/test_merge_notebooks.py
-34c3e8b	bcb487c	Martin Sandve Alnæs	martinal@simula.no	Wed, 27 Jul 2016 9:30:48 +0200	Add single cell test notebook with versions editing one or more cell component (source, metadata, output, execution_count) in a few variations.	nbdime/tests/files/single_cell_nb.ipynb,nbdime/tests/files/single_cell_nb_changed_ec.ipynb,nbdime/tests/files/single_cell_nb_changed_metadata.ipynb,nbdime/tests/files/single_cell_nb_changed_output.ipynb,nbdime/tests/files/single_cell_nb_changed_source.ipynb,nbdime/tests/files/single_cell_nb_changed_source_output.ipynb,nbdime/tests/files/single_cell_nb_changed_source_output_ec.ipynb,nbdime/tests/fixtures.py
-bcb487c	221247e	Martin Sandve Alnæs	martinal@simula.no	Wed, 27 Jul 2016 9:20:44 +0200	Fixes in autoresolve, handling non-conflicts at leaf level also for the fallthrough 'mergetool' strategy.	nbdime/merging/autoresolve.py,nbdime/merging/notebooks.py,nbdime/tests/test_autoresolve.py
-221247e	a1a9b1d	Martin Sandve Alnæs	martinal@simula.no	Wed, 27 Jul 2016 9:20:16 +0200	Dump merged notebook json from nbmerge app if no filename passed. To be replaced with something nicer, useful for debugging now.	nbdime/nbmergeapp.py
-b6b9876	767c7c2 32bafb5	Martin Sandve Alnæs	martinal@simula.no	Wed, 27 Jul 2016 8:37:35 +0200	Merge pull request #71 from vidartf/refactor_chunking	
+34c3e8b	bcb487c	Martin Sandve Alnæs	martinal@simula.no	Wed, 27 Jul 2016 09:30:48 +0200	Add single cell test notebook with versions editing one or more cell component (source, metadata, output, execution_count) in a few variations.	nbdime/tests/files/single_cell_nb.ipynb,nbdime/tests/files/single_cell_nb_changed_ec.ipynb,nbdime/tests/files/single_cell_nb_changed_metadata.ipynb,nbdime/tests/files/single_cell_nb_changed_output.ipynb,nbdime/tests/files/single_cell_nb_changed_source.ipynb,nbdime/tests/files/single_cell_nb_changed_source_output.ipynb,nbdime/tests/files/single_cell_nb_changed_source_output_ec.ipynb,nbdime/tests/fixtures.py
+bcb487c	221247e	Martin Sandve Alnæs	martinal@simula.no	Wed, 27 Jul 2016 09:20:44 +0200	Fixes in autoresolve, handling non-conflicts at leaf level also for the fallthrough 'mergetool' strategy.	nbdime/merging/autoresolve.py,nbdime/merging/notebooks.py,nbdime/tests/test_autoresolve.py
+221247e	a1a9b1d	Martin Sandve Alnæs	martinal@simula.no	Wed, 27 Jul 2016 09:20:16 +0200	Dump merged notebook json from nbmerge app if no filename passed. To be replaced with something nicer, useful for debugging now.	nbdime/nbmergeapp.py
+b6b9876	767c7c2 32bafb5	Martin Sandve Alnæs	martinal@simula.no	Wed, 27 Jul 2016 08:37:35 +0200	Merge pull request #71 from vidartf/refactor_chunking	
 32bafb5	8105a0b	Vidar Tonaas Fauske	vidartf@gmail.com	Tue, 26 Jul 2016 16:13:40 +0200	Fix missing colorama import	nbdime/nbdiffapp.py
 8105a0b	0a31664	Vidar Tonaas Fauske	vidartf@gmail.com	Tue, 26 Jul 2016 16:13:25 +0200	Tuple unpacking compatibility	nbdime/merging/chunks.py
 a1a9b1d	bca7ec6	Martin Sandve Alnæs	martinal@simula.no	Tue, 26 Jul 2016 15:50:12 +0200	Revert default source merge strategy for now to keep tests passing.	nbdime/merging/notebooks.py
@@ -1643,16 +1643,16 @@ eb68064	ed9023a	Vidar Tonaas Fauske	vidartf@gmail.com	Mon, 25 Jul 2016 11:59:53 
 8280db7	ed9023a	Geir Arne Hjelle	geirarne@gmail.com	Sat, 16 Jul 2016 22:37:11 +0200	Added a command to setup.py to run npm install and build	setup.py
 ed9023a	1b80c97	Min RK	benjaminrk@gmail.com	Fri, 15 Jul 2016 11:45:20 -0500	use remove-section to disable drivers	nbdime/gitdiffdriver.py,nbdime/gitmergedriver.py
 1b80c97	b3343f9	Min RK	benjaminrk@gmail.com	Fri, 15 Jul 2016 11:41:41 -0500	only set output=local if merge	nbdime/gitmergedriver.py
-b3343f9	8ff220d 845c477	Min RK	benjaminrk@gmail.com	Fri, 15 Jul 2016 4:00:12 -0500	Merge pull request #63 from minrk/diff-driver-attributes	
-8ff220d	37a7104	Min RK	benjaminrk@gmail.com	Fri, 15 Jul 2016 2:57:23 -0500	fix nbdimeserver default port	nbdime/webapp/nbdimeserver.py
-37a7104	e387105	Min RK	benjaminrk@gmail.com	Fri, 15 Jul 2016 0:40:18 -0500	re-disable indent	nbdime/prettyprint.py
-845c477	25e8ae3	Min RK	benjaminrk@gmail.com	Fri, 15 Jul 2016 2:50:56 -0500	try to write gitattributes when enabling diff driver	nbdime/gitdiffdriver.py
-25e8ae3	e387105	Min RK	benjaminrk@gmail.com	Fri, 15 Jul 2016 0:40:18 -0500	re-disable indent	nbdime/prettyprint.py
-e387105	55adbce a8650be	Min RK	benjaminrk@gmail.com	Fri, 15 Jul 2016 0:41:17 -0500	Merge pull request #62 from minrk/merge-test	
-a8650be	e4c8aad	Min RK	benjaminrk@gmail.com	Fri, 15 Jul 2016 0:02:49 -0500	fix disabling git plugins	nbdime/gitdiffdriver.py,nbdime/gitdifftool.py,nbdime/gitmergedriver.py
-e4c8aad	b726565	Min RK	benjaminrk@gmail.com	Thu, 14 Jul 2016 0:42:12 -0500	add mergedriver	nbdime/gitmergedriver.py,setup.py
+b3343f9	8ff220d 845c477	Min RK	benjaminrk@gmail.com	Fri, 15 Jul 2016 04:00:12 -0500	Merge pull request #63 from minrk/diff-driver-attributes	
+8ff220d	37a7104	Min RK	benjaminrk@gmail.com	Fri, 15 Jul 2016 02:57:23 -0500	fix nbdimeserver default port	nbdime/webapp/nbdimeserver.py
+37a7104	e387105	Min RK	benjaminrk@gmail.com	Fri, 15 Jul 2016 00:40:18 -0500	re-disable indent	nbdime/prettyprint.py
+845c477	25e8ae3	Min RK	benjaminrk@gmail.com	Fri, 15 Jul 2016 02:50:56 -0500	try to write gitattributes when enabling diff driver	nbdime/gitdiffdriver.py
+25e8ae3	e387105	Min RK	benjaminrk@gmail.com	Fri, 15 Jul 2016 00:40:18 -0500	re-disable indent	nbdime/prettyprint.py
+e387105	55adbce a8650be	Min RK	benjaminrk@gmail.com	Fri, 15 Jul 2016 00:41:17 -0500	Merge pull request #62 from minrk/merge-test	
+a8650be	e4c8aad	Min RK	benjaminrk@gmail.com	Fri, 15 Jul 2016 00:02:49 -0500	fix disabling git plugins	nbdime/gitdiffdriver.py,nbdime/gitdifftool.py,nbdime/gitmergedriver.py
+e4c8aad	b726565	Min RK	benjaminrk@gmail.com	Thu, 14 Jul 2016 00:42:12 -0500	add mergedriver	nbdime/gitmergedriver.py,setup.py
 b726565	229fc56	Min RK	benjaminrk@gmail.com	Thu, 14 Jul 2016 23:37:59 -0500	indicate when autoresolving conflicts	nbdime/merging/autoresolve.py,nbdime/nbmergeapp.py
-229fc56	55adbce	Min RK	benjaminrk@gmail.com	Thu, 14 Jul 2016 0:41:32 -0500	pretty-print conflicts	nbdime/nbmergeapp.py
+229fc56	55adbce	Min RK	benjaminrk@gmail.com	Thu, 14 Jul 2016 00:41:32 -0500	pretty-print conflicts	nbdime/nbmergeapp.py
 55adbce	633fe82 15c6740	Min RK	benjaminrk@gmail.com	Thu, 14 Jul 2016 23:12:19 -0500	Merge pull request #61 from minrk/install-web	
 15c6740	77cf79d	Min RK	benjaminrk@gmail.com	Thu, 14 Jul 2016 23:07:32 -0500	set max-width: 100% on image outputs	nbdime/webapp/static/diff.css
 77cf79d	1e4b325	Min RK	benjaminrk@gmail.com	Thu, 14 Jul 2016 21:49:24 -0500	use line-based diff on text outputs	nbdime/diffing/notebooks.py
@@ -1667,14 +1667,14 @@ d1952dc	6691bfc 7e4d860	Min RK	benjaminrk@gmail.com	Thu, 14 Jul 2016 14:42:34 -0
 6691bfc	0d57ff7 9c6830a	Min RK	benjaminrk@gmail.com	Thu, 14 Jul 2016 14:14:10 -0500	Merge pull request #57 from minrk/skip-non-notebooks	
 7e4d860	0d9469d	Min RK	benjaminrk@gmail.com	Wed, 13 Jul 2016 16:54:03 -0500	color terminal diffs with colorama	nbdime/gitdiffdriver.py,nbdime/nbdiffapp.py,nbdime/prettyprint.py,nbdime/tests/test_git_diffdriver.py,nbdime/tests/test_prettyprint.py,setup.py
 0d57ff7	a8fce37	Min RK	benjaminrk@gmail.com	Thu, 14 Jul 2016 11:32:09 -0500	tell pytest to ignore node_modules	pytest.ini
-9c6830a	0d9469d	Min RK	benjaminrk@gmail.com	Thu, 14 Jul 2016 0:47:18 -0500	skip non-notebook files in nbdifftool	nbdime/webapp/nbdifftool.py
+9c6830a	0d9469d	Min RK	benjaminrk@gmail.com	Thu, 14 Jul 2016 00:47:18 -0500	skip non-notebook files in nbdifftool	nbdime/webapp/nbdifftool.py
 a8fce37	3fd06d8 d390fef	Min RK	benjaminrk@gmail.com	Thu, 14 Jul 2016 10:44:20 -0500	Merge pull request #56 from minrk/missing-languages	
 3fd06d8	5a7ac92	Min RK	benjaminrk@gmail.com	Thu, 14 Jul 2016 10:42:37 -0500	ignore build, dist dirs	.gitignore
 5a7ac92	0d9469d	Min RK	benjaminrk@gmail.com	Thu, 14 Jul 2016 10:40:28 -0500	remove coverage comments	codecov.yml
 0d9469d	312418e 8662fe3	Min RK	benjaminrk@gmail.com	Thu, 14 Jul 2016 10:37:52 -0500	Merge pull request #55 from minrk/integer-ports	
-312418e	5044f27 18814a6	Min RK	benjaminrk@gmail.com	Thu, 14 Jul 2016 1:05:21 -0500	Merge pull request #50 from vidartf/mimetype_diff	
-8662fe3	5044f27	Min RK	benjaminrk@gmail.com	Thu, 14 Jul 2016 0:43:11 -0500	Use integer port arguments in nbdifftool	nbdime/webapp/nbdifftool.py
-d390fef	5044f27	Min RK	benjaminrk@gmail.com	Thu, 14 Jul 2016 0:46:26 -0500	handle missing language	nbdime/webapp/src/diffmodel.ts
+312418e	5044f27 18814a6	Min RK	benjaminrk@gmail.com	Thu, 14 Jul 2016 01:05:21 -0500	Merge pull request #50 from vidartf/mimetype_diff	
+8662fe3	5044f27	Min RK	benjaminrk@gmail.com	Thu, 14 Jul 2016 00:43:11 -0500	Use integer port arguments in nbdifftool	nbdime/webapp/nbdifftool.py
+d390fef	5044f27	Min RK	benjaminrk@gmail.com	Thu, 14 Jul 2016 00:46:26 -0500	handle missing language	nbdime/webapp/src/diffmodel.ts
 5044f27	7fcd5b2 fecb37f	Min RK	benjaminrk@gmail.com	Wed, 13 Jul 2016 16:32:49 -0500	Merge pull request #49 from vidartf/webapp_difftool	
 18814a6	984b9c0	Vidar Tonaas Fauske	vidartf@gmail.com	Thu, 7 Jul 2016 23:05:07 +0200	Undelete files that were mistakenly deleted	webapp/nbdimeserver.py,webapp/static/nbdime.css,webapp/static/nbdime.js,webapp/templates/index.html,webapp/testnotebooks/base.ipynb,webapp/testnotebooks/local.ipynb,webapp/testnotebooks/remote.ipynb
 984b9c0	015483b	Vidar Tonaas Fauske	vidartf@gmail.com	Thu, 7 Jul 2016 22:55:04 +0200	More helpful docstring	nbdime/diff_format.py
@@ -1734,13 +1734,13 @@ cc31347	a0303a4 ebd3f33	Min RK	benjaminrk@gmail.com	Thu, 21 Apr 2016 14:34:52 +0
 ebd3f33	7015cdc	Nicholas Bollweg	nbollweg@continuum.io	Wed, 20 Apr 2016 20:38:58 -0400	add test for fix	nbdime/tests/test_prettyprint.py
 7015cdc	a0303a4	Nicholas Bollweg	nbollweg@continuum.io	Wed, 20 Apr 2016 20:38:40 -0400	add fallback to stdlib diff formatting	nbdime/prettyprint.py
 a0303a4	912ee20 3fefdc8	Min RK	benjaminrk@gmail.com	Mon, 18 Apr 2016 10:25:41 +0200	Merge pull request #40 from willingc/doc-move	
-3fefdc8	23a571e	Carol Willing	carolcode@willingconsulting.com	Sun, 17 Apr 2016 9:10:43 -0700	Suppress todo	docs/source/conf.py,docs/source/index.rst
-23a571e	f2b3172	Carol Willing	carolcode@willingconsulting.com	Sun, 17 Apr 2016 8:22:34 -0700	Updated formatting for API	docs/source/api.md,docs/source/conf.py,docs/source/diffing.rst,docs/source/glossary.rst,docs/source/index.rst,docs/source/installing.rst,docs/source/merging.rst
-f2b3172	abb4d1a	Carol Willing	carolcode@willingconsulting.com	Sun, 17 Apr 2016 5:31:54 -0700	Remove overview	docs/source/index.rst
-abb4d1a	67db062	Carol Willing	carolcode@willingconsulting.com	Sun, 17 Apr 2016 5:27:07 -0700	Update structure after migration	docs/source/conf.py,docs/source/diffing.rst,docs/source/index.rst,docs/source/merging.rst,docs/source/overview.rst
-67db062	912ee20	Carol Willing	carolcode@willingconsulting.com	Sun, 17 Apr 2016 5:06:44 -0700	Edit doc structure	docs/source/index.rst,docs/source/installing.rst,docs/source/overview.rst,docs/source/testing.rst,docs/source/usecases.rst
-912ee20	f173d83 d5312de	Carol Willing	carolcode@willingconsulting.com	Sun, 17 Apr 2016 3:38:36 -0700	Merge pull request #39 from jupyter/willingc-patch-1	
-d5312de	f173d83	Carol Willing	carolcode@willingconsulting.com	Sun, 17 Apr 2016 3:35:09 -0700	Update README to Jupyter link location	README.md
+3fefdc8	23a571e	Carol Willing	carolcode@willingconsulting.com	Sun, 17 Apr 2016 09:10:43 -0700	Suppress todo	docs/source/conf.py,docs/source/index.rst
+23a571e	f2b3172	Carol Willing	carolcode@willingconsulting.com	Sun, 17 Apr 2016 08:22:34 -0700	Updated formatting for API	docs/source/api.md,docs/source/conf.py,docs/source/diffing.rst,docs/source/glossary.rst,docs/source/index.rst,docs/source/installing.rst,docs/source/merging.rst
+f2b3172	abb4d1a	Carol Willing	carolcode@willingconsulting.com	Sun, 17 Apr 2016 05:31:54 -0700	Remove overview	docs/source/index.rst
+abb4d1a	67db062	Carol Willing	carolcode@willingconsulting.com	Sun, 17 Apr 2016 05:27:07 -0700	Update structure after migration	docs/source/conf.py,docs/source/diffing.rst,docs/source/index.rst,docs/source/merging.rst,docs/source/overview.rst
+67db062	912ee20	Carol Willing	carolcode@willingconsulting.com	Sun, 17 Apr 2016 05:06:44 -0700	Edit doc structure	docs/source/index.rst,docs/source/installing.rst,docs/source/overview.rst,docs/source/testing.rst,docs/source/usecases.rst
+912ee20	f173d83 d5312de	Carol Willing	carolcode@willingconsulting.com	Sun, 17 Apr 2016 03:38:36 -0700	Merge pull request #39 from jupyter/willingc-patch-1	
+d5312de	f173d83	Carol Willing	carolcode@willingconsulting.com	Sun, 17 Apr 2016 03:35:09 -0700	Update README to Jupyter link location	README.md
 f173d83	d15e6fd 8e67844	Martin Sandve Alnæs	martinal@simula.no	Fri, 15 Apr 2016 16:03:44 +0200	Merge pull request #38 from jupyter/new-list-merge-algorithm	
 8e67844	fbbf976	Martin Sandve Alnæs	martinal@simula.no	Fri, 15 Apr 2016 15:57:45 +0200	Add missing import in corner case.	nbdime/tests/test_diff_json_conversion.py
 fbbf976	6fd6c2e	Martin Sandve Alnæs	martinal@simula.no	Fri, 15 Apr 2016 15:50:29 +0200	Add test and bugfix for to_json_patch.	nbdime/diff_format.py,nbdime/tests/test_diff_json_conversion.py
@@ -1750,7 +1750,7 @@ a3ef7cc	20cedba	Martin Sandve Alnæs	martinal@simula.no	Fri, 15 Apr 2016 15:22:1
 c580f6b	194f1ce	Martin Sandve Alnæs	martinal@simula.no	Fri, 15 Apr 2016 10:16:53 +0200	Add missing file.	nbdime/merging/chunks.py
 194f1ce	60400c0	Martin Sandve Alnæs	martinal@simula.no	Fri, 15 Apr 2016 10:09:23 +0200	Use splitlines instead of split on \\n	nbdime/diff_format.py,nbdime/merging/autoresolve.py,nbdime/prettyprint.py,nbdime/tests/fixtures.py,nbdime/tests/test_merge_notebooks.py,nbdime/utils.py
 60400c0	05b9bbe	Martin Sandve Alnæs	martinal@simula.no	Fri, 15 Apr 2016 10:01:41 +0200	Remove some unused code.	nbdime/diff_format.py
-05b9bbe	efdfc30	Martin Sandve Alnæs	martinal@simula.no	Fri, 15 Apr 2016 9:57:56 +0200	Some more work in merge tests. Should clean up multiline text diffing before progressing.	nbdime/tests/test_diff.py,nbdime/tests/test_merge_notebooks.py
+05b9bbe	efdfc30	Martin Sandve Alnæs	martinal@simula.no	Fri, 15 Apr 2016 09:57:56 +0200	Some more work in merge tests. Should clean up multiline text diffing before progressing.	nbdime/tests/test_diff.py,nbdime/tests/test_merge_notebooks.py
 efdfc30	503efb3	Martin Sandve Alnæs	martinal@simula.no	Thu, 14 Apr 2016 17:03:15 +0200	Some further test fixes and comments. Still need to resolve some merge tests.	nbdime/merging/autoresolve.py,nbdime/tests/test_merge_notebooks.py
 503efb3	d77ba80	Martin Sandve Alnæs	martinal@simula.no	Thu, 14 Apr 2016 12:58:01 +0200	Add .validated() function to *DiffBuilder classes.	nbdime/diff_format.py,nbdime/diffing/generic.py,nbdime/diffing/lcs.py,nbdime/diffing/seq_difflib.py,nbdime/diffing/snakes.py,nbdime/merging/autoresolve.py,nbdime/merging/generic.py,nbdime/tests/test_diff.py
 d77ba80	09d351a	Martin Sandve Alnæs	martinal@simula.no	Thu, 14 Apr 2016 11:56:20 +0200	Rename Diff -> DiffOp, access op names using e.g. DiffOp.ADD.	nbdime/diff_format.py,nbdime/diffing/notebooks.py,nbdime/merging/autoresolve.py,nbdime/merging/generic.py,nbdime/patching.py,nbdime/prettyprint.py
@@ -1787,9 +1787,9 @@ c7b3d80	8a2c2a8	Carol Willing	carolcode@willingconsulting.com	Sat, 19 Mar 2016 1
 6cd8523	6660a4a	Martin Sandve Alnæs	martinal@simula.no	Tue, 15 Mar 2016 14:28:59 +0100	Bugfix.	nbdime/merging/notebooks.py
 6660a4a	72fc51f d60af42	Martin Sandve Alnæs	martinal@simula.no	Tue, 15 Mar 2016 14:23:14 +0100	Merge pull request #29 from martinal/martinal/topic-merge-conflict-resolution	
 d60af42	671e6fd	Martin Sandve Alnæs	martinal@simula.no	Mon, 14 Mar 2016 13:35:12 +0100	Initial implementation of autoresolve feature and bugfixes in merge.	nbdime/merging/autoresolve.py,nbdime/merging/generic.py,nbdime/merging/notebooks.py,nbdime/patching.py,nbdime/tests/test_merge.py,nbdime/tests/test_merge_notebooks.py
-671e6fd	e51ea80	Martin Sandve Alnæs	martinal@simula.no	Mon, 14 Mar 2016 9:40:00 +0100	Use .addrange(), .removerange() instead of .add(), .remove() for consistency.	nbdime/diffing/lcs.py,nbdime/diffing/seq_difflib.py,nbdime/diffing/snakes.py,nbdime/merging/generic.py
-e51ea80	112bbc0	Martin Sandve Alnæs	martinal@simula.no	Mon, 14 Mar 2016 9:38:48 +0100	Add utility function for internal use.	nbdime/diff_format.py
-112bbc0	fbcb81f	Martin Sandve Alnæs	martinal@simula.no	Mon, 14 Mar 2016 7:44:24 +0100	Add helper function.	nbdime/diff_format.py
+671e6fd	e51ea80	Martin Sandve Alnæs	martinal@simula.no	Mon, 14 Mar 2016 09:40:00 +0100	Use .addrange(), .removerange() instead of .add(), .remove() for consistency.	nbdime/diffing/lcs.py,nbdime/diffing/seq_difflib.py,nbdime/diffing/snakes.py,nbdime/merging/generic.py
+e51ea80	112bbc0	Martin Sandve Alnæs	martinal@simula.no	Mon, 14 Mar 2016 09:38:48 +0100	Add utility function for internal use.	nbdime/diff_format.py
+112bbc0	fbcb81f	Martin Sandve Alnæs	martinal@simula.no	Mon, 14 Mar 2016 07:44:24 +0100	Add helper function.	nbdime/diff_format.py
 72fc51f	fbcb81f dc2407b	Min RK	benjaminrk@gmail.com	Sat, 12 Mar 2016 21:53:32 +0100	Merge pull request #28 from minrk/fix-difftool-args	
 dc2407b	fbcb81f	Min RK	benjaminrk@gmail.com	Sat, 12 Mar 2016 21:24:49 +0100	fix git-nbdiff args	nbdime/gitdifftool.py,nbdime/nbdiffapp.py
 fbcb81f	5af7f14 0a8e244	Martin Sandve Alnæs	martinal@simula.no	Tue, 8 Mar 2016 14:30:32 +0100	Merge pull request #27 from martinal/martinal/topic-refactor-diffing	
@@ -1816,10 +1816,10 @@ daab7d9	003da65	Martin Sandve Alnæs	martinal@simula.no	Fri, 29 Jan 2016 12:06:2
 003da65	7505bcd	Martin Sandve Alnæs	martinal@simula.no	Fri, 29 Jan 2016 11:18:41 +0100	Add utility for stripping DiffEntry class from diff objects, left with only pure python dict objects without attribute access, and test conversion to/from json with this.	nbdime/diff_format.py,nbdime/tests/test_diff_json_conversion.py
 7505bcd	6f2bcff	Martin Sandve Alnæs	martinal@simula.no	Fri, 29 Jan 2016 10:50:04 +0100	Refactoring: move op string enums under Diff class.	nbdime/diff_format.py,nbdime/diffing/generic.py,nbdime/merging/generic.py,nbdime/patching.py,nbdime/prettyprint.py,nbdime/tests/test_diff.py,nbdime/tests/test_merge.py,nbdime/tests/test_patch.py
 6f2bcff	fc9ed3a	Martin Sandve Alnæs	martinal@simula.no	Fri, 29 Jan 2016 10:38:11 +0100	Change in diff format: using e.valuelist instead of e.values.	docs/source/diffing.rst,nbdime/diff_format.py,nbdime/merging/generic.py,nbdime/patching.py,nbdime/prettyprint.py
-fc9ed3a	acb63a9	Martin Sandve Alnæs	martinal@simula.no	Fri, 29 Jan 2016 10:07:27 +0100	"Quick fix to disable excessive deeply indented ""patch foo"" lines in nbdiff text output."	nbdime/prettyprint.py
-acb63a9	68ffd54	Martin Sandve Alnæs	martinal@simula.no	Fri, 29 Jan 2016 9:49:51 +0100	Bugfix in to_json_patch path.	nbdime/diff_format.py
-68ffd54	48db461	Martin Sandve Alnæs	martinal@simula.no	Fri, 29 Jan 2016 9:31:09 +0100	Update diff format documentation.	docs/source/cli.rst,docs/source/diffing.rst,docs/source/merging.rst,nbdime/diff_format.py
-48db461	8949a46	Martin Sandve Alnæs	martinal@simula.no	Fri, 29 Jan 2016 8:39:05 +0100	Rename dformat -> diff_format.	nbdime/diff_format.py,nbdime/diffing/generic.py,nbdime/diffing/lcs.py,nbdime/diffing/notebooks.py,nbdime/diffing/seq_difflib.py,nbdime/diffing/snakes.py,nbdime/merging/generic.py,nbdime/patching.py,nbdime/prettyprint.py,nbdime/tests/fixtures.py,nbdime/tests/test_diff.py,nbdime/tests/test_diff_sequence.py,nbdime/tests/test_diff_sequence_bruteforce.py,nbdime/tests/test_diff_sequence_difflib.py,nbdime/tests/test_merge.py,nbdime/tests/test_patch.py
+fc9ed3a	acb63a9	Martin Sandve Alnæs	martinal@simula.no	Fri, 29 Jan 2016 10:07:27 +0100	Quick fix to disable excessive deeply indented "patch foo" lines in nbdiff text output.	nbdime/prettyprint.py
+acb63a9	68ffd54	Martin Sandve Alnæs	martinal@simula.no	Fri, 29 Jan 2016 09:49:51 +0100	Bugfix in to_json_patch path.	nbdime/diff_format.py
+68ffd54	48db461	Martin Sandve Alnæs	martinal@simula.no	Fri, 29 Jan 2016 09:31:09 +0100	Update diff format documentation.	docs/source/cli.rst,docs/source/diffing.rst,docs/source/merging.rst,nbdime/diff_format.py
+48db461	8949a46	Martin Sandve Alnæs	martinal@simula.no	Fri, 29 Jan 2016 08:39:05 +0100	Rename dformat -> diff_format.	nbdime/diff_format.py,nbdime/diffing/generic.py,nbdime/diffing/lcs.py,nbdime/diffing/notebooks.py,nbdime/diffing/seq_difflib.py,nbdime/diffing/snakes.py,nbdime/merging/generic.py,nbdime/patching.py,nbdime/prettyprint.py,nbdime/tests/fixtures.py,nbdime/tests/test_diff.py,nbdime/tests/test_diff_sequence.py,nbdime/tests/test_diff_sequence_bruteforce.py,nbdime/tests/test_diff_sequence_difflib.py,nbdime/tests/test_merge.py,nbdime/tests/test_patch.py
 8949a46	062098b	Martin Sandve Alnæs	martinal@simula.no	Thu, 28 Jan 2016 16:24:25 +0100	Add suggestion for minimal dict subclass with attribute access for diff entries. Needs more refactoring to enable.	nbdime/dformat.py,nbdime/utils.py
 062098b	dfdf1de	Martin Sandve Alnæs	martinal@simula.no	Thu, 28 Jan 2016 15:43:34 +0100	Modify documentation of verify_diff_entry to match new format.	nbdime/dformat.py
 dfdf1de	681bc1f	Martin Sandve Alnæs	martinal@simula.no	Thu, 28 Jan 2016 14:03:53 +0100	Some whitespace.	nbdime/tests/test_merge.py,nbdime/tests/test_myers.py
@@ -1829,13 +1829,13 @@ e9e369b	1ed87da	Martin Sandve Alnæs	martinal@simula.no	Thu, 28 Jan 2016 14:00:3
 1ed87da	fda03ad	Martin Sandve Alnæs	martinal@simula.no	Thu, 28 Jan 2016 13:59:57 +0100	Rename SEQINSERT -> ADDRANGE.	nbdime/dformat.py,nbdime/merging/generic.py,nbdime/patching.py,nbdime/prettyprint.py,nbdime/tests/test_diff.py,nbdime/tests/test_merge.py,nbdime/tests/test_patch.py
 fda03ad	c1ce070	Martin Sandve Alnæs	martinal@simula.no	Thu, 28 Jan 2016 13:54:05 +0100	Refactoring towards diff format more similar to JSONPatch.	nbdime/dformat.py,nbdime/diffing/generic.py,nbdime/merging/generic.py,nbdime/patching.py,nbdime/prettyprint.py,nbdime/tests/test_diff.py,nbdime/tests/test_merge.py,nbdime/tests/test_myers.py,nbdime/tests/test_patch.py
 c1ce070	d7c11d2	Martin Sandve Alnæs	martinal@simula.no	Thu, 28 Jan 2016 10:01:51 +0100	Add utilities for string split/join in json objects.	nbdime/tests/test_utils.py,nbdime/utils.py
-d7c11d2	b65b920	Martin Sandve Alnæs	martinal@simula.no	Thu, 28 Jan 2016 9:00:50 +0100	Bugfix in comparison of stream output.	nbdime/diffing/notebooks.py,nbdime/merging/generic.py
+d7c11d2	b65b920	Martin Sandve Alnæs	martinal@simula.no	Thu, 28 Jan 2016 09:00:50 +0100	Bugfix in comparison of stream output.	nbdime/diffing/notebooks.py,nbdime/merging/generic.py
 b65b920	717b890	Martin Sandve Alnæs	martinal@simula.no	Wed, 27 Jan 2016 12:44:44 +0100	Refactor diff creation through some simple diff classes.	nbdime/dformat.py,nbdime/diffing/generic.py,nbdime/diffing/lcs.py,nbdime/diffing/seq_difflib.py,nbdime/diffing/snakes.py,nbdime/merging/generic.py,nbdime/merging/notebooks.py
 717b890	d8c258c	Martin Sandve Alnæs	martinal@simula.no	Wed, 27 Jan 2016 11:08:25 +0100	Remove numpy dependency.	nbdime/diffing/seq_bruteforce.py,nbdime/tests/test_diff_sequence_bruteforce.py,nbdime/tests/test_myers.py,requirements.txt,setup.py
 d8c258c	57461e9	Martin Sandve Alnæs	martinal@simula.no	Fri, 15 Jan 2016 10:05:29 +0100	Rename diff format actions/ops to more verbose words similar to JSON Patch format.	docs/source/diffing.rst,nbdime/dformat.py,nbdime/merging/generic.py,nbdime/prettyprint.py,nbdime/tests/test_merge.py,webapp/static/nbdime.js
-57461e9	bd92962	Martin Sandve Alnæs	martinal@simula.no	Fri, 15 Jan 2016 9:45:39 +0100	Add some simple notebooks for testing webbapp: cd webapp/testnotebooks; python ../nbdimeserver.py;	webapp/testnotebooks/base.ipynb,webapp/testnotebooks/local.ipynb,webapp/testnotebooks/remote.ipynb
+57461e9	bd92962	Martin Sandve Alnæs	martinal@simula.no	Fri, 15 Jan 2016 09:45:39 +0100	Add some simple notebooks for testing webbapp: cd webapp/testnotebooks; python ../nbdimeserver.py;	webapp/testnotebooks/base.ipynb,webapp/testnotebooks/local.ipynb,webapp/testnotebooks/remote.ipynb
 bd92962	3f971fa	Martin Sandve Alnæs	martinal@simula.no	Wed, 13 Jan 2016 15:50:17 +0100	Draft of nbdime webapp. Not functional and not pretty!	webapp/nbdimeserver.py,webapp/static/nbdime.css,webapp/static/nbdime.js,webapp/templates/index.html
-3f971fa	1104309	Martin Sandve Alnæs	martinal@simula.no	Fri, 15 Jan 2016 8:59:20 +0100	Bugfix in output cell diff.	nbdime/diffing/notebooks.py
+3f971fa	1104309	Martin Sandve Alnæs	martinal@simula.no	Fri, 15 Jan 2016 08:59:20 +0100	Bugfix in output cell diff.	nbdime/diffing/notebooks.py
 1104309	058bce1	Martin Sandve Alnæs	martinal@simula.no	Mon, 4 Jan 2016 13:34:27 +0100	Cleanup.	nbdime/log.py,nbdime/merging/generic.py,nbdime/nbdiffapp.py,nbdime/nbmergeapp.py,nbdime/nbpatchapp.py,nbdime/prettyprint.py
 058bce1	4927471	Martin Sandve Alnæs	martinal@simula.no	Mon, 4 Jan 2016 12:02:04 +0100	Use codecov.io instead of coveralls.	.travis.yml,README.md
 4927471	360fa2e	Martin Sandve Alnæs	martinal@simula.no	Mon, 4 Jan 2016 11:30:59 +0100	Make travis badge link to travis pages properly.	README.md
@@ -1876,7 +1876,7 @@ afd56ee	2e61e85	Martin Sandve Alnæs	martinal@simula.no	Wed, 2 Dec 2015 16:20:49
 11256e2	3f09aec	Martin Sandve Alnæs	martinal@simula.no	Wed, 2 Dec 2015 15:22:15 +0100	Add docs/build to gitignore.	.gitignore
 3f09aec	faa50ba	Martin Sandve Alnæs	martinal@simula.no	Wed, 2 Dec 2015 15:20:17 +0100	Add coveralls badge and reference to travis page.	README.md
 faa50ba	6ac8994	Martin Sandve Alnæs	martinal@simula.no	Wed, 2 Dec 2015 15:13:12 +0100	Add coveralls and pytest-cov use for travis.	.travis.yml,requirements.txt,test_requirements.txt
-6ac8994	a9c66c6	Martin Sandve Alnæs	martinal@simula.no	Wed, 2 Dec 2015 14:17:19 +0100	"Introduce ""enums"" for diff entry actions."	nbdime/dformat.py,nbdime/diffing/deep.py,nbdime/diffing/linebasedcelldiff.py,nbdime/diffing/notebooks.py,nbdime/diffing/seq_difflib.py,nbdime/diffing/shallow.py,nbdime/merging/merge.py,nbdime/nbdiffapp.py,nbdime/patching.py,nbdime/tests/test_diff.py,nbdime/tests/test_diff_sequence.py,nbdime/tests/test_patch.py
+6ac8994	a9c66c6	Martin Sandve Alnæs	martinal@simula.no	Wed, 2 Dec 2015 14:17:19 +0100	Introduce "enums" for diff entry actions.	nbdime/dformat.py,nbdime/diffing/deep.py,nbdime/diffing/linebasedcelldiff.py,nbdime/diffing/notebooks.py,nbdime/diffing/seq_difflib.py,nbdime/diffing/shallow.py,nbdime/merging/merge.py,nbdime/nbdiffapp.py,nbdime/patching.py,nbdime/tests/test_diff.py,nbdime/tests/test_diff_sequence.py,nbdime/tests/test_patch.py
 a9c66c6	a5eb3df	Martin Sandve Alnæs	martinal@simula.no	Wed, 2 Dec 2015 13:48:25 +0100	Use six.string_types.	nbdime/dformat.py,nbdime/diffing/comparing.py,nbdime/diffing/deep.py,nbdime/diffing/linebasedcelldiff.py,nbdime/diffing/sequences.py,nbdime/diffing/shallow.py,nbdime/merging/merge.py,nbdime/patching.py
 a5eb3df	b9595d9	Martin Sandve Alnæs	martinal@simula.no	Wed, 2 Dec 2015 13:33:13 +0100	Remove failing test now showing on travis.	nbdime/tests/test_merge.py,requirements.txt
 b9595d9	c611a45	Martin Sandve Alnæs	martinal@simula.no	Wed, 2 Dec 2015 13:28:20 +0100	Update requirements.txt.	requirements.txt
@@ -1889,7 +1889,7 @@ fc77d93	42482f5	Martin Sandve Alnæs	martinal@simula.no	Wed, 2 Dec 2015 12:40:13
 42482f5	3e27d0d	Martin Sandve Alnæs	martinal@simula.no	Wed, 2 Dec 2015 11:13:34 +0100	Add more tests of merge of nested dicts and fix some bugs.	nbdime/merging/merge.py,nbdime/tests/test_merge.py
 3e27d0d	964c23f	Martin Sandve Alnæs	martinal@simula.no	Wed, 2 Dec 2015 10:46:23 +0100	Work in progress on merge. Still experimental and not useful.	nbdime/merging/merge.py
 964c23f	458efc1	Martin Sandve Alnæs	martinal@simula.no	Wed, 2 Dec 2015 10:27:43 +0100	Update readme.	README.md
-458efc1	250b2c3	Martin Sandve Alnæs	martinal@simula.no	Wed, 2 Dec 2015 10:24:09 +0100	"Use "" consistently."	nbdime/_version.py,nbdime/dformat.py,nbdime/diffing/comparing.py,nbdime/diffing/deep.py,nbdime/diffing/linebasedcelldiff.py,nbdime/diffing/seq_difflib.py,nbdime/diffing/shallow.py,nbdime/nbdiffapp.py,nbdime/patching.py,nbdime/tests/test_diff.py
+458efc1	250b2c3	Martin Sandve Alnæs	martinal@simula.no	Wed, 2 Dec 2015 10:24:09 +0100	Use " consistently.	nbdime/_version.py,nbdime/dformat.py,nbdime/diffing/comparing.py,nbdime/diffing/deep.py,nbdime/diffing/linebasedcelldiff.py,nbdime/diffing/seq_difflib.py,nbdime/diffing/shallow.py,nbdime/nbdiffapp.py,nbdime/patching.py,nbdime/tests/test_diff.py
 250b2c3	21e3158	Martin Sandve Alnæs	martinal@simula.no	Wed, 2 Dec 2015 10:09:03 +0100	Import xrange as range from six.	nbdime/dformat.py,nbdime/diffing/deep.py,nbdime/diffing/linebasedcelldiff.py,nbdime/diffing/seq_bruteforce.py,nbdime/tests/fixtures.py,nbdime/tests/test_diff_sequence.py,nbdime/tests/test_diff_sequence_bruteforce.py,nbdime/tests/test_diff_sequence_difflib.py
 21e3158	d0a91ff	Martin Sandve Alnæs	martinal@simula.no	Mon, 30 Nov 2015 15:16:18 +0100	Update readme.	docs/README.md
 d0a91ff	9c473db	Martin Sandve Alnæs	martinal@simula.no	Thu, 26 Nov 2015 16:43:29 +0100	Add somewhat-pretty-printing of diffs in nbdiffapp.	nbdime/nbdiffapp.py,nbdime/tests/files/foo-foe-1.ipynb
@@ -1902,7 +1902,7 @@ b811f75	883aae9	Martin Sandve Alnæs	martinal@simula.no	Fri, 20 Nov 2015 14:33:4
 883aae9	2e4f0cd	Martin Sandve Alnæs	martinal@simula.no	Wed, 18 Nov 2015 13:48:57 +0100	More cleanup.	nbdime/__init__.py,nbdime/application.py,nbdime/diff/__init__.py,nbdime/diff/diff.py,nbdime/diff/diff_notebooks.py,nbdime/diff/diff_sequence.py,nbdime/diff/diff_sequence_bruteforce.py,nbdime/diff/diff_sequence_difflib.py,nbdime/diff/diff_sequence_myers.py,nbdime/diff/lcs.py,nbdime/diff/validation.py,nbdime/merge/__init__.py,nbdime/merge/merge.py,nbdime/patch.py,nbdime/tests/__init__.py,nbdime/tests/fixtures.py,nbdime/tests/test_diff.py,nbdime/tests/test_diff_sequence.py,nbdime/tests/test_diff_sequence_bruteforce.py,nbdime/tests/test_diff_sequence_difflib.py,nbdime/tests/test_myers.py,nbdime/tests/test_notebook_diff.py,nbdime/tests/test_patch.py
 2e4f0cd	c79b461	Martin Sandve Alnæs	martinal@simula.no	Wed, 18 Nov 2015 13:37:50 +0100	Organize diff_sequence_* variants difflib|bruteforce|myers in separate files and make diff_sequence(a,b) configurable in a temporary hacky way.	nbdime/diff/diff_sequence.py,nbdime/diff/diff_sequence_bruteforce.py,nbdime/diff/diff_sequence_difflib.py,nbdime/diff/diff_sequence_myers.py,nbdime/diff/lcs.py,nbdime/tests/test_diff_sequence_bruteforce.py,nbdime/tests/test_myers.py
 c79b461	3085a9c	Martin Sandve Alnæs	martinal@simula.no	Wed, 18 Nov 2015 12:18:49 +0100	Implement simple but expensive brute force lcs and diff algorithms.	nbdime/tests/test_myers.py
-3085a9c	f370829	Martin Sandve Alnæs	martinal@simula.no	Wed, 18 Nov 2015 9:47:07 +0100	snapshot	nbdime/tests/test_myers.py
+3085a9c	f370829	Martin Sandve Alnæs	martinal@simula.no	Wed, 18 Nov 2015 09:47:07 +0100	snapshot	nbdime/tests/test_myers.py
 f370829	298d796	Martin Sandve Alnæs	martinal@simula.no	Tue, 17 Nov 2015 17:13:21 +0100	Bugfixes in greedy ses algorithm.	nbdime/tests/test_myers.py
 298d796	1395385	Martin Sandve Alnæs	martinal@simula.no	Tue, 17 Nov 2015 16:39:50 +0100	Work in progress, checkpoint while debugging.	nbdime/tests/test_myers.py
 1395385	3107baa	Martin Sandve Alnæs	martinal@simula.no	Tue, 17 Nov 2015 15:03:11 +0100	Hunt down bug in Myers LCS algorithm. Basic tests pass.	nbdime/tests/test_myers.py
@@ -1912,12 +1912,12 @@ c9d61c8	9df1d46	Martin Sandve Alnæs	martinal@simula.no	Mon, 16 Nov 2015 10:46:5
 9df1d46	080717e	Martin Sandve Alnæs	martinal@simula.no	Mon, 16 Nov 2015 10:40:13 +0100	Rename test_metadata_diff -> test_diff.	nbdime/tests/test_diff.py,nbdime/tests/test_metadata_diff.py
 080717e	5ca9103	Martin Sandve Alnæs	martinal@simula.no	Mon, 16 Nov 2015 10:11:29 +0100	Import fixes, licence headers, skip failing tests of not-yet-implemented code.	nbdime/__init__.py,nbdime/diff/__init__.py,nbdime/diff/diff.py,nbdime/diff/diff_notebooks.py,nbdime/diff/diff_sequence.py,nbdime/diff/validation.py,nbdime/merge/__init__.py,nbdime/patch.py,nbdime/tests/__init__.py,nbdime/tests/test_diff.py,nbdime/tests/test_difflib_wrapper.py,nbdime/tests/test_metadata_diff.py,nbdime/tests/test_notebook_diff.py,nbdime/tests/test_patch.py
 5ca9103	127a0be	Martin Sandve Alnæs	martinal@simula.no	Mon, 16 Nov 2015 10:01:08 +0100	Some restructuring, documentation, and deletion of unused code.	docs/README.md,nbdime/diff/diff.py,nbdime/diff/diff_dicts.py,nbdime/diff/doc.py,nbdime/diff/unusedutils.py,nbdime/patch.py
-127a0be	decd24b	Martin Sandve Alnæs	martinal@simula.no	Mon, 16 Nov 2015 9:11:20 +0100	Rename project to nbdime.	README.md,docs/README.md,nbdime/__init__.py,nbdime/_version.py,nbdime/application.py,nbdime/diff/__init__.py,nbdime/diff/diff.py,nbdime/diff/diff_dicts.py,nbdime/diff/diff_notebooks.py,nbdime/diff/diff_sequence.py,nbdime/diff/doc.py,nbdime/diff/patch.py,nbdime/diff/unusedutils.py,nbdime/diff/validation.py,nbdime/merge/__init__.py,nbdime/tests/__init__.py,nbdime/tests/files/empty.ipynb,nbdime/tests/files/test-data-singlecell-1.ipynb,nbdime/tests/files/test-data-singlecell-2.ipynb,nbdime/tests/fixtures.py,nbdime/tests/test_diff.py,nbdime/tests/test_difflib_wrapper.py,nbdime/tests/test_metadata_diff.py,nbdime/tests/test_notebook_diff.py,nbdime/tests/test_patch.py,scripts/jupyter-nbdiff,scripts/jupyter-nbmerge,scripts/jupyter-nbpatch,setup.py
-decd24b	87188dd	Martin Sandve Alnæs	martinal@simula.no	Mon, 16 Nov 2015 8:57:55 +0100	Initial work on flattened source line approach to diffing cells.	nbmerge/diff/diff_notebooks.py
-87188dd	c9e5879	Martin Sandve Alnæs	martinal@simula.no	Mon, 16 Nov 2015 8:57:38 +0100	Add utility decompress_diff for converting multiline diff actions into single line actions.	nbmerge/diff/diff.py
-c9e5879	9fe5f89	Martin Sandve Alnæs	martinal@simula.no	Mon, 16 Nov 2015 8:50:07 +0100	Pass None linstead of lambda to SequenceMatcher.	nbmerge/diff/diff_sequence.py
+127a0be	decd24b	Martin Sandve Alnæs	martinal@simula.no	Mon, 16 Nov 2015 09:11:20 +0100	Rename project to nbdime.	README.md,docs/README.md,nbdime/__init__.py,nbdime/_version.py,nbdime/application.py,nbdime/diff/__init__.py,nbdime/diff/diff.py,nbdime/diff/diff_dicts.py,nbdime/diff/diff_notebooks.py,nbdime/diff/diff_sequence.py,nbdime/diff/doc.py,nbdime/diff/patch.py,nbdime/diff/unusedutils.py,nbdime/diff/validation.py,nbdime/merge/__init__.py,nbdime/tests/__init__.py,nbdime/tests/files/empty.ipynb,nbdime/tests/files/test-data-singlecell-1.ipynb,nbdime/tests/files/test-data-singlecell-2.ipynb,nbdime/tests/fixtures.py,nbdime/tests/test_diff.py,nbdime/tests/test_difflib_wrapper.py,nbdime/tests/test_metadata_diff.py,nbdime/tests/test_notebook_diff.py,nbdime/tests/test_patch.py,scripts/jupyter-nbdiff,scripts/jupyter-nbmerge,scripts/jupyter-nbpatch,setup.py
+decd24b	87188dd	Martin Sandve Alnæs	martinal@simula.no	Mon, 16 Nov 2015 08:57:55 +0100	Initial work on flattened source line approach to diffing cells.	nbmerge/diff/diff_notebooks.py
+87188dd	c9e5879	Martin Sandve Alnæs	martinal@simula.no	Mon, 16 Nov 2015 08:57:38 +0100	Add utility decompress_diff for converting multiline diff actions into single line actions.	nbmerge/diff/diff.py
+c9e5879	9fe5f89	Martin Sandve Alnæs	martinal@simula.no	Mon, 16 Nov 2015 08:50:07 +0100	Pass None linstead of lambda to SequenceMatcher.	nbmerge/diff/diff_sequence.py
 9fe5f89	c7a959c	Martin Sandve Alnæs	martinal@simula.no	Fri, 13 Nov 2015 15:29:55 +0100	Add gitignore file.	.gitignore
-c7a959c	3d1599b	Martin Sandve Alnæs	martinal@simula.no	Thu, 12 Nov 2015 9:24:21 +0100	Turn off autojunk behaviour of SequenceMatcher. This requires Python>=2.7.1.	nbmerge/diff/diff_sequence.py
+c7a959c	3d1599b	Martin Sandve Alnæs	martinal@simula.no	Thu, 12 Nov 2015 09:24:21 +0100	Turn off autojunk behaviour of SequenceMatcher. This requires Python>=2.7.1.	nbmerge/diff/diff_sequence.py
 3d1599b	12267aa	Martin Sandve Alnæs	martinal@simula.no	Wed, 11 Nov 2015 12:52:47 +0100	Add jupyter-nbpatch dummy script.	nbmerge/application.py,scripts/jupyter-nbdiff,scripts/jupyter-nbmerge,scripts/jupyter-nbpatch,setup.py
 12267aa	36b2763	Martin Sandve Alnæs	martinal@simula.no	Wed, 11 Nov 2015 12:05:35 +0100	Implement a more generic diff(a,b), compatible with patch.	nbmerge/diff/diff.py,nbmerge/diff/diff_metadata.py,nbmerge/diff/diff_notebooks.py,nbmerge/diff/diff_sequence.py,nbmerge/diff/patch.py,nbmerge/diff/validation.py,nbmerge/tests/test_diff.py,nbmerge/tests/test_difflib_wrapper.py,nbmerge/tests/test_metadata_diff.py,nbmerge/tests/test_notebook_diff.py,nbmerge/tests/test_output_cell_diff.py
 36b2763	518273b	Martin Sandve Alnæs	martinal@simula.no	Wed, 11 Nov 2015 11:06:48 +0100	Implement a difflib SequenceMatcher wrapper, converting its opcodes into the nbmerge diff format and testing with nbmerge.patch.	nbmerge/tests/test_difflib_wrapper.py
@@ -1926,4 +1926,4 @@ d253d18	b7e293a	Martin Sandve Alnæs	martinal@simula.no	Wed, 11 Nov 2015 10:18:0
 b7e293a	e424c56	Martin Sandve Alnæs	martinal@simula.no	Mon, 9 Nov 2015 13:54:42 +0100	Add nbmerge/tests/ files.	nbmerge/tests/__init__.py,nbmerge/tests/test_input_cell_diff.py,nbmerge/tests/test_metadata_diff.py,nbmerge/tests/test_notebook_diff.py,nbmerge/tests/test_output_cell_diff.py
 e424c56	5a11ecf	Martin Sandve Alnæs	martinal@simula.no	Mon, 9 Nov 2015 13:54:39 +0100	Bugfix in setup.py	setup.py
 5a11ecf	f87fb2e	Martin Sandve Alnæs	martinal@simula.no	Mon, 9 Nov 2015 13:46:50 +0100	Updates of setup.py and scripts.	nbmerge/nbmergeapp.py,scripts/jupyter-nbdiff,scripts/jupyter-nbmerge,scripts/nbdiff,scripts/nbmerge,setup.py
-f87fb2e		Martin Sandve Alnæs	martinal@simula.no	Mon, 9 Nov 2015 13:13:28 +0100	Initial commit, framework files following nbformat setup.	CONTRIBUTING.md,COPYING.md,MANIFEST.in,README.md,docs/README.md,nbmerge/__init__.py,nbmerge/_version.py,scripts/nbdiff,scripts/nbmerge,setup.cfg,setup.py,
+f87fb2e		Martin Sandve Alnæs	martinal@simula.no	Mon, 9 Nov 2015 13:13:28 +0100	Initial commit, framework files following nbformat setup.	CONTRIBUTING.md,COPYING.md,MANIFEST.in,README.md,docs/README.md,nbmerge/__init__.py,nbmerge/_version.py,scripts/nbdiff,scripts/nbmerge,setup.cfg,setup.py
